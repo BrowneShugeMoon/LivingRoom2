@@ -58,8 +58,8 @@ border-color:white;
   background-color:none;
 }
 .navbar-inverse {
-     background-color: white !important; 
-     border-color: white !important; 
+     background-color: white !important;
+     border-color: white !important;
      background-image:none !important;
 }
 
@@ -298,18 +298,10 @@ li {
     height:250px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.bgimg {
+    background-image: url('bg.png');
+    background-size: 800px;
+}
 
 @media only screen and (max-width: 700px){
     .bigger {
@@ -327,5 +319,5 @@ li {
 
 
 @media screen and (max-width:480px) {
-    
+
     }
