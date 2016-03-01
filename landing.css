@@ -33,14 +33,17 @@ img {
   float:center;
   margin: auto;
 }
-
 #select {
   margin-top: 5%;
 }
+
+/*#location {
+  margin: 5% 10% 5% 10%;
+
+}*/
 
 @media screen and (min-width: 760px) {
   #location {
     margin: 5% 20% 5% 20%;
   }
-
 }
