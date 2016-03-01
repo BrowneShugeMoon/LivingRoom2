@@ -36,15 +36,6 @@ img {
 #select {
   margin-top: 5%;
 }
-a:hover {
-  color:blue; background:white;
-  -o-transition:color .2s ease-out, background 1s ease-in;
-  -ms-transition:color .2s ease-out, background 1s ease-in;
-  -moz-transition:color .2s ease-out, background 1s ease-in;
-  -webkit-transition:color .2s ease-out, background 1s ease-in;
-  /* ...and now override with proper CSS property */
-  transition:color .2s ease-out, background 1s ease-in;
-}
 
 @media screen and (min-width: 760px) {
   #location {
