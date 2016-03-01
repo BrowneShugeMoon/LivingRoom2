@@ -525,6 +525,7 @@ li {
 }
 
 
+<<<<<<< HEAD
 
 
 
@@ -543,6 +544,10 @@ li {
 
 @media screen and (min-width:700px) {
   
+=======
+@media screen and (min-width:768px) {
+
+>>>>>>> origin/master
     body {
   background-color: white;
   font-family: 'Roboto Condensed', sans-serif;
@@ -599,6 +604,7 @@ a{
   height:7%;
   margin:0;
 }
+
 .alignleft {
   float: left;
       padding-left:20px;
@@ -699,4 +705,3 @@ p {
 #containerrr {
     height:250px;
 }
-
