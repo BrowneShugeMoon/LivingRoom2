@@ -6,11 +6,7 @@ body {
   font-size: 6em;
 }
 
-h2 {
-  font-family: 'Fjalla One', sans-serif;
-  color: red;
 
-}
 .nav-tabs > li, .nav-pills > li {
     float:none;
     display:inline-block;
@@ -95,7 +91,18 @@ background-color:white;
     margin-left:auto;
   margin-right:auto;
   padding-bottom:50px;
+  margin-top:-.3em;
+  }
 
+.rectangle2{
+      float:center;
+    width: 260px;
+    height: 80px;
+    margin-left:auto;
+  margin-right:auto;
+  padding-bottom:50px;
+  margin-top:-.3em;
+    margin-bottom:-50px;
   }
   #rectanglee {
     width:360px;
@@ -123,11 +130,9 @@ background
   height:7%;
   margin:0;
 }
-h2{
-  font-family:"Fjalla One";
-}
 
-.alignleft {
+/* INFO TEXT*/
+.infoalignleft {
   float: left;
       padding-left:20px;
       font-size:1em;
@@ -135,7 +140,7 @@ h2{
        padding-bottom:20px;
          margin-top:-4em;
 }
-.alignright {
+.infoalignright {
   float: right;
   padding-right:10px;
   font-size:1em;
@@ -143,80 +148,21 @@ h2{
    padding-bottom:20px;
    margin-top:-4em;
 }
-.alignleftt {
-  float: left;
-      padding-left:20px;
-      font-size:1em;
-       font-weight:normal;
-       padding-bottom:20px;
-       margin-top:-3em;
-}
-.alignrightt {
-  float: right;
-  padding-right:20px;
-  font-size:1em;
-   font-weight:normal;
-   padding-bottom:20px;
-   margin-top:-3em;
-}
-.alignrightttt {
-  float: right;
-  padding-right:20px;
-   font-weight:normal;
-  font-size:1em;
-  margin-top:-3em;
-}
 
-.alignrighttt {
-  float: right;
-  padding-right:100px;
-  font-size:1em;
-   font-weight:normal;
-   margin-top:-3em;
-}
 .aligncenter {
   text-align:center;
   margin-top:-3em;
 }
 
-.alignleftbfast {
-   float: left;
-      padding-left:50px;
-      font-size:1em;
-       font-weight:normal;
-}
-.alignrightbfast{
-    float: right;
-  padding-right:50px;
-  font-size:1em;
-   font-weight:normal;
-}
-.alignrightbfastt{
-    float: right;
-  padding-right:20px;
-  font-size:1em;
-   font-weight:normal;
-}
-h2 {
-  font-family:"Fjalla One";
-}
 
 
-.footerimg {
-    width: 100%;
-    height: 90px;
-    background-image: url("coffee1.jpg");
-    background-size: 100% 100%;
-}​
 .wrapper {
     min-height: 100%;
     height: auto !important;
     height: 100%;
     margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
 }
-.footer, .push {
-    height: 142px; /* .push must be the same height as .footer */
-}
+
 :target:before {
   content:"";
   display:block;
@@ -261,6 +207,13 @@ p {
 .abouttext{
     font-family: 'Fjalla One', sans-serif;
     font-size:1.2em;
+    margin-top:-1.2em;
+}
+.aboutimg{
+  width:100%;
+  height:10%;
+  margin-top:-1.6em;
+}
 }
 .cateringbutt{
   background-color:red;
@@ -304,11 +257,58 @@ li {
     margin-top:-8.5em;
 
 }
-
-
+/*KEEPS HOOKAH MENU ALIVE*/
+.center{
+    text-align:center;
+    margin-top:4.5em;
+}
 
 
 /*DRINKS*/
+/*COFFEE MENU*/
+.coffeecontent{
+  float: left;
+  padding-left:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:-3em;
+  font-family: 'Fjalla One', sans-serif;
+  text-align:left;
+}
+
+.coffeecontent1{
+    float: right;
+  padding-right:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:-3em;
+  font-family: 'Fjalla One', sans-serif;
+  text-align:left;
+}
+/*ICED MENU*/
+.icedcontent{
+  float: left;
+  padding-left:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:-3em;
+  font-family: 'Fjalla One', sans-serif;
+  text-align:left;
+}
+
+.icedcontent1{
+    float: right;
+  padding-right:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:-3em;
+  font-family: 'Fjalla One', sans-serif;
+  text-align:left;
+}
 /*TEA MENU*/
 .teatitle{
     font-family: 'Fjalla One', sans-serif;
@@ -326,6 +326,7 @@ li {
   padding-bottom:20px;
   margin-top:-1em;
   font-family: 'Fjalla One', sans-serif;
+  text-align:left;
   }
 
   .teacontent2{
@@ -336,11 +337,57 @@ li {
   padding-bottom:20px;
   margin-top:-1em;
   font-family: 'Fjalla One', sans-serif;
+  text-align:left;
 
   }
 
+/*MOCHA MENU*/
+.mochacontent{
+  float: left;
+  padding-left:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:-3em;
+  font-family: 'Fjalla One', sans-serif;
+  text-align:left;
 
+}
 
+.mochacontent1{
+    float: right;
+  padding-right:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:-3em;
+  font-family: 'Fjalla One', sans-serif;
+  text-align:left;
+}
+
+/*FRAPPE MENU*/
+.frappecontent{
+  float: left;
+  padding-left:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:-3em;
+  font-family: 'Fjalla One', sans-serif;
+  text-align:left;
+
+}
+
+.frappecontent1{
+    float: right;
+  padding-right:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:-3em;
+  font-family: 'Fjalla One', sans-serif;
+  text-align:left;
+}
 /*ALCOHOL MENU*/
 .beercenter{
   float:center;
@@ -388,6 +435,7 @@ li {
    font-weight:normal;
    padding-bottom:20px;
    font-family: 'Fjalla One', sans-serif;
+   text-align:left;
 
 }
 .alcoholrightwine{
@@ -396,6 +444,7 @@ li {
    font-weight:normal;
   font-size:1em;
   font-family: 'Fjalla One', sans-serif;
+  text-align:left;
 }
 
 .champagne{
@@ -420,10 +469,12 @@ li {
 .breakfastcenter{
   text-align:center;
   font-family: 'Fjalla One', sans-serif;
-  font-size:2em;
+  font-size:1.5em;
+  font-weight:bold;
 }
 .breakfastcontent{
    float: left;
+    text-align:left;
    padding-left:8px;
    font-size:1em;
     font-weight:normal;
@@ -431,6 +482,7 @@ li {
 }
 .breakfastcontent2{
   float:right;
+   text-align:left;
   padding-right:10px;
   font-size:1em;
    font-weight:normal;
@@ -440,52 +492,296 @@ li {
   text-align:center;
   font-family: 'Fjalla One', sans-serif;
     font-size:2em;
+    font-weight:bold;
+}
+.breakfastcenter3{
+  text-align:center;
+  font-family: 'Fjalla One', sans-serif;
+    font-size:1.5em;
+    font-weight:bold;
 }
 .breakfastcontent3{
    float: left;
-      padding-left:80px;
-      font-size:1em;
-       font-weight:normal;
-         font-family: 'Fjalla One', sans-serif;
+  padding-left:0px;
+  text-align:left;
+  font-size:.9em;
+  font-weight:normal;
+  font-family: 'Fjalla One', sans-serif;
 }
 .breakfastcontent4{
     float: right;
-  padding-right:10px;
-  font-size:1em;
+  padding-right:0px;
+  font-size:.9em;
+  text-align:left;
    font-weight:normal;
      font-family: 'Fjalla One', sans-serif;
 }
 
 
+/*STARTERS*/
+.starterscontent{
+  float: left;
+  padding-left:10px;
+  font-size:1em;
+       font-weight:normal;
+       padding-bottom:20px;
+   text-align:left;
+       font-family: 'Fjalla One', sans-serif;
+}
+
+.starterscontent1{
+    float: right;
+  padding-right:10px;
+  font-size:1em;
+   font-weight:normal;
+   padding-bottom:20px;
+text-align:left;
+   font-family: 'Fjalla One', sans-serif;
+}
+
+
+/*  ENTREES*/
+.entreestitle{
+  text-align:center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+.entreescontent{
+   float: left;
+  padding-left:0px;
+  text-align:left;
+  font-size:.9em;
+  font-weight:normal;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.entreescontent1{
+      float: right;
+  padding-right:0px;
+  font-size:.9em;
+  text-align:left;
+   font-weight:normal;
+     font-family: 'Fjalla One', sans-serif;
+}
+
+/*SALADS*/
+.saladtitle{
+   text-align:center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+.saladcontent{
+   float: left;
+  padding-left:0px;
+  text-align:left;
+  font-size:.9em;
+  font-weight:normal;
+  font-family: 'Fjalla One', sans-serif;
+}
+.saladcontent1{
+        float: right;
+  padding-right:0px;
+  font-size:1em;
+  text-align:left;
+   font-weight:normal;
+     font-family: 'Fjalla One', sans-serif;
+}
+
+
+/*SANDWICHES*/
+.sandwichestitle{
+   text-align:center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:1.5em;
+  font-weight:bold;
+
+}
+.sandwichescontent{
+   float: left;
+  padding-left:0px;
+  text-align:left;
+  font-size:.9em;
+  font-weight:normal;
+  font-family: 'Fjalla One', sans-serif;
+}
+.sandwichescontent1{
+        float: right;
+  padding-right:0px;
+  font-size:1em;
+  text-align:left;
+   font-weight:normal;
+     font-family: 'Fjalla One', sans-serif;
+
+}
+
+.wrapstitle{
+   text-align:center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:1.5em;
+  font-weight:bold;
+}
+
+.wrapscontent{
+   float: left;
+  padding-left:0px;
+  text-align:left;
+  font-size:.9em;
+  font-weight:normal;
+  font-family: 'Fjalla One', sans-serif;
+}
+.wrapscontent1{
+        float: right;
+  padding-right:0px;
+  font-size:1em;
+  text-align:left;
+   font-weight:normal;
+     font-family: 'Fjalla One', sans-serif;
+}
+.paninistitle{
+   text-align:center;
+  font-family: 'Fjalla One', sans-serif;
+  font-size:1.5em;
+  font-weight:bold;
+}
+.paniniscontent{
+   float: left;
+  padding-left:0px;
+  text-align:left;
+  font-size:.9em;
+  font-weight:normal;
+  font-family: 'Fjalla One', sans-serif;
+}
+.paniniscontent1{
+          float: right;
+  padding-right:0px;
+  font-size:1em;
+  text-align:left;
+   font-weight:normal;
+     font-family: 'Fjalla One', sans-serif;
+}
+
+/*HOOKAH MENU*/
+.starbuzzcontent{
+  float: left;
+  padding-left:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:0em;
+  text-align:left;
+  font-family: 'Fjalla One', sans-serif;
+}
+.starbuzzcontent1{
+  float: right;
+  padding-right:20px;
+  font-size:1em;
+   font-weight:normal;
+   padding-bottom:20px;
+   margin-top:0em;
+   text-align:left;
+   font-family: 'Fjalla One', sans-serif;
+}
+
+.alfakhercontent{
+  float: left;
+  padding-left:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:0em;
+  text-align:left;
+  font-family: 'Fjalla One', sans-serif;
+}
+.alfakhercontent1{
+  float: right;
+  padding-right:20px;
+  font-size:1em;
+   font-weight:normal;
+   padding-bottom:20px;
+   margin-top:0em;
+   text-align:left;
+   font-family: 'Fjalla One', sans-serif;
+}
+.cigarscontent{
+  float: left;
+  padding-left:20px;
+  font-size:1em;
+  font-weight:normal;
+  padding-bottom:20px;
+  margin-top:0em;
+  text-align:left;
+  font-family: 'Fjalla One', sans-serif;
+}
+.cigarscontent1{
+  float: right;
+  padding-right:20px;
+  font-size:1em;
+   font-weight:normal;
+   padding-bottom:20px;
+   margin-top:0em;
+   text-align:left;
+   font-family: 'Fjalla One', sans-serif;
+}
+
+
+.hookahimg{
+   width:100%;
+  height:150px;
+  margin-top:-5em;
+}
 
 
 
 
 
+/*GALLERY STUFF*/
+
+.containerrr{
+  width:200%;
+  height:300%;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*FOOTER*/
+.footerimg {
+    width: 100%;
+    height: 142px;
+    background-image: url("coffee1.jpg");
+    background-size: 100% 100%;
+}​
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 142px; /* .push must be the same height as .footer */
+}
+.footercontent{
+  float:left;
+ font-size:1.2em;
+ text-align:left;
+   font-family: 'Fjalla One', sans-serif;
+   margin-top:2em;
+   margin-left:.5em;
+   color:white;
+}
+.footercontent1{
+  float:right;
+ font-size:1.2em;
+ text-align:left;
+   font-family: 'Fjalla One', sans-serif;
+   margin-top:2em;
+   margin-right:.5em;
+   color:white;
+}
 
 /*MEDIA QUERIES AND MASONRY STUFF*/
 
@@ -525,7 +821,7 @@ li {
 }
 
 
-<<<<<<< HEAD
+
 
 
 
@@ -544,10 +840,8 @@ li {
 
 @media screen and (min-width:700px) {
   
-=======
 @media screen and (min-width:768px) {
 
->>>>>>> origin/master
     body {
   background-color: white;
   font-family: 'Roboto Condensed', sans-serif;
@@ -653,21 +947,6 @@ a{
     float: right;
   padding-right:20px;
   font-size:1.2em;
-}
-.footerimg {
-    width: 100%;
-    height: 90px;
-    background-image: url("coffee1.jpg");
-    background-size: 100% 100%;
-}​
-.wrapper {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
-}
-.footer, .push {
-    height: 142px; /* .push must be the same height as .footer */
 }
 
 
