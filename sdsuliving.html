@@ -2,7 +2,7 @@
 <html lang="en">
 <html>
 <head>
-<link type="text/css" rel="stylesheet" href="sdsuliving.css"/>
+<link type="text/css" rel="stylesheet" href="cssliving.css"/>
 
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -50,34 +50,48 @@
 
 
     <!-- info -->
-<article id="info">
-<h2 style ="font-family:Fjalla One"> INFO <br> <img src="bar.png" class="rectangle"> </h2>
+<div id="infoo">
+<div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-12">
+
+  <article id="info">
+  <h1 style ="font-family:Fjalla One"> INFO <br> <img src="bar.png" class="rectangle"> </h1> <br>
 
 
 
-<!-- social media links -->
-<a href="http://www.yelp.com/biz/living-room-coffee-la-jolla">
-<img src="yelp.png" class="socialimg">
-</a>
+      <!-- social media links -->
+      <div class="socialcontainer">
+      <a href="http://www.yelp.com/biz/living-room-coffee-la-jolla">
+      <img src="yelp.png" class="socialimg">
+      </a>
 
-<a href="https://www.facebook.com/The-Living-Room-La-Jolla-121921894540281/?fref=ts">
-<img src="facebook.png" class="socialimg">
-</a>
+      <a href="https://www.facebook.com/The-Living-Room-La-Jolla-121921894540281/?fref=ts">
+      <img src="facebook.png" class="socialimg">
+      </a>
 
-<a  href="https://www.instagram.com/explore/locations/216030724/">
-<img src="instagram.png" class="socialimg">
-</a>
+      <a  href="https://www.instagram.com/explore/locations/216030724/">
+      <img src="instagram.png" class="socialimg">
+      </a>
+      </div>
+<div class="hours">
+<div class="row">
+  <div class="col-xs-6 col-sm-6">
+    <div class="text">Closes in 1 hr <br>Monday-Sunday: <br> 6AM-1AM <br> Happy hour everyday 4PM-7PM</div>
+  </div>
 
-
-<br> <br>
-
-<div id="infotext">
-  <p class="alignleft">Closes in 1 hour <br> Monday-Sunday: 6AM-1AM<br> </p>
-  <p class="alignright">5900 El Cajon Blvd <br> San Diego,CA, 92115 <br> (619) 286-8434</p>
+  <div class="col-xs-6 col-sm-6">
+    <div class="text">5900 El Cajon Blvd <br> San Diego, CA, 92115 <br> (619) 286-8434</div>
+  </div>
 </div>
-<div style="clear: both;"></div>
+</div>
+</div>
+</div>
 </div>
 </article>
+</div>
+
+
 <!-- hi jamie!!-->
 <!-- end info -->
 
@@ -86,7 +100,7 @@
     <div class = "row">
       <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
-          <img src="logo.jpg" class="logoimg">
+          <a href="landing.html"> <img src="logo.jpg" class="logoimg"> </a>
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
@@ -99,8 +113,6 @@
             <li class="active"><a style="font-family:Fjalla One" href="#info" data-toggle="collapse" data-target=".navbar-collapse"> INFO</a></li>
             <li><a href="#menu" style="font-family:Fjalla One" data-toggle="collapse" data-target=".navbar-collapse">MENU</a></li>
             <li><a style="font-family:Fjalla One" href="#gallery" data-toggle="collapse" data-target=".navbar-collapse">GALLERY</a></li>
-            <li><a style="font-family:Fjalla One" href="#hookah" data-toggle="collapse" data-target=".navbar-collapse">HOOKAH</a></li>
-            <li><a style="font-family:Fjalla One" href="#events" data-toggle="collapse" data-target=".navbar-collapse">EVENTS/SPECIALS</a></li>
             <li><a style="font-family:Fjalla One" href="#catering" data-toggle="collapse" data-target=".navbar-collapse">CATERING</a></li>
             <li><a style="font-family:Fjalla One" href="#about" data-toggle="collapse" data-target=".navbar-collapse">ABOUT</a></li>
           </ul>
@@ -119,18 +131,18 @@
 
 <!-- menu1 -->
 <div > </div>
-      <h2 style="font-family:Fjalla One" href="#menu" class="drinktitle">DRINK<br><img src="bar.png" class="rectangle"> </h2>
+      <h1 style="font-family:Fjalla One" href="#menu" class="drinktitle">DRINK<br><img src="bar.png" class="rectangle"> </h1>
 <article id="menu" >
 
   <div class="container">
-    <ul class="nav nav-tabs centered">
+  <ul class="nav nav-tabs centered">
  <!--  <li class="active"> -->
-    <li><a data-toggle="tab" href="#coffee">COFFEE</a></li>
+  <li class="active"><a data-toggle="tab" href="#coffee">COFFEE</a></li>
   <li><a data-toggle="tab" href="#iced">ICED</a></li>
   <li><a data-toggle="tab" href="#tea">TEA</a></li>
   <li><a data-toggle="tab" href="#mocha">MOCHA</a></li>
   <li><a data-toggle="tab" href="#frappe">FRAPPE</a></li>
-  <li><a data-toggle="tab" href="#alcohol">ALCOHOL</a></li>
+  <!--<li><a data-toggle="tab" href="#alcohol">ALCOHOL</a></li>-->
 </ul>
 </div>
 
@@ -138,7 +150,7 @@
 
 <div id="coffee" class="tab-pane fade">
 <div id="infotext">
-  <p class="alignleftt">
+  <div class="coffeecontent">
     House Brew<br>
     Espresso<br>
     Americano<br>
@@ -146,8 +158,8 @@
     Carmel Latte<br>
     Cappuccino<br>
     BreveLatte
-     </p>
-  <p class="alignrightt">
+     </div>
+  <div class="coffeecontent1">
   Cafe Latte <br>
   Toffee Nut Latte<br>
   Cafe Au-Lait<br>
@@ -156,7 +168,7 @@
    Hot Chocolate<br>
    Hot White Chocolate<br>
    Turkish Coffee
- </p>
+ </div>
 <!-- <br><br><br><br><br><button type="button" class="btn btn-link" data-toggle="collapse" data-target="#coffee"> -->
 <!--   <img src="up.jpg" class="upicon"> -->
 
@@ -168,7 +180,7 @@
 
   <div id="iced" class="tab-pane fade" data-toggle="tab">
     <div id="infotext">
-  <p class="alignleftt">
+  <div class="icedcontent">
       Italian Sodas<br>
       Lemonade<br>
       Lemon Freeze<br>
@@ -176,9 +188,9 @@
       House Tea <br>
       Rasberry Tea<br>
       Passion Tea <br>
-       </p>
+       </div>
 
-       <p class="alignrightt">
+       <div class="icedcontent1">
       Blood Orange Tea <br>
       Arnold Palmer<br>
       Orange Juice<br>
@@ -187,9 +199,10 @@
       Chai Latte <br>
       Vanilla Chai Latte
 
- </p>
+ </div>
+ <div style="clear: both;"></div>
 </div>
-<div style="clear: both;"></div>
+
 </div>
 
 
@@ -197,7 +210,7 @@
     <div id="infotext">
   <div class="teatitle">
 <i>Tea Pot for Two Available</i></div>
-<br></p>
+<br>
   <div class="teacontent">
 
 CAFFEINATED<br>
@@ -235,27 +248,29 @@ Rosebud</p>
 
 <div id="mocha" class="tab-pane fade" data-toggle="tab">
     <div id="infotext">
-  <p class="centerr">
+  <div class="mochacontent">
 
 Cafe Mocha<br>
-California Mocha (Apricot)<br>
+California Mocha<br>
 Mint Mocha <br>
 Peppermint Mocha<br>
-Hazelnut Mocha<br>
-Cafe Suizzerra (Rasberry Mocha)<br>
-Cafe Jaffa (Orange Mocha)<br>
-Milky Way Mocha (Carmel Mocha)<br>
-Cafe Blondie (White Chocolate Mocha)
-</p>
- <p class="alignrightt">
+Hazelnut Mocha<br></div>
+<div class="mochacontent1">
+Cafe Suizzerra <br>
+Cafe Jaffa<br>
+Milky Way Mocha <br>
+Cafe Blondie
 </div>
+
+
 <div style="clear: both;"></div>
+</div>
 </div>
 
 
   <div id="frappe" class="tab-pane fade" data-toggle="tab">
     <div id="infotext">
-  <p class="alignleftt">
+  <div class="frappecontent">
 Latte Frappe  <br>
 Mocha Frappe <br>
 Strawberry Mocha <br>
@@ -265,9 +280,9 @@ Toffee Coffee  <br>
 Cookie Catastrophe<br>
 Avalanche  <br>
 Bomb Alaska  <br>
-</p>
+</div>
 
-<p class="alignrightttt">
+<div class="frappecontent1">
 Banana Cappuccino <br>
 White Orange <br>
 White Banana Orange
@@ -278,9 +293,10 @@ Tai Tea <br>
 Matcha Green Tea <br>
 Hawaiian Breeze  <br>
 Fruit Smoothies
-  </p>
+  </div>
+  <div style="clear: both;"></div>
 </div>
-<div style="clear: both;"></div>
+
 </div>
 
   <div id="alcohol" class="tab-pane fade" data-toggle="tab">
@@ -350,9 +366,8 @@ White Zifandel<br>
 <!-- end menu1 -->
 <!-- menu2 -->
 <article id="menuu">
-   <h2 style="font-family:Fjalla One">EAT<br><img src="bar.png" class="rectangle">  </h2>
+   <h1 style="font-family:Fjalla One">EAT<br><img src="bar.png" class="rectangle">  </h1>
   <div class="container">
-  <div class="center">
     <ul class="nav nav-tabs centered">
   <li><a data-toggle="tab" href="#bfast">BFAST</a></li>
   <li><a data-toggle="tab" href="#starters">STARTERS</a></li>
@@ -360,13 +375,14 @@ White Zifandel<br>
   <li><a data-toggle="tab" href="#salads">SALADS</a></li>
   <li><a data-toggle="tab" href="#sandwiches">SANDWICHES</a></li>
 </ul>
-</div>
+
 <div class="tab-content">
 
 
   <div id="bfast" class="tab-pane fade">
   <div id="infotext">
-    <div class="breakfastcenter"> <i> All Breads baked Fresh, Daily </i></div>
+    <div class="breakfastcenter"> <i> <br> All Breads baked Fresh, Daily </i></div>
+    <br>
   <div class="breakfastcontent">
       Plain Croissant <br>
       Nutella Croissant<br>
@@ -386,9 +402,10 @@ White Zifandel<br>
        Coffee Cakes</div>
 
 <div style="clear: both;"></div>
-  <div class ="breakfastcenter2"><i> Entrees; Served with Fresh Fruit</i></div>
+  <div class ="breakfastcenter2">Entrees</div><div class ="breakfastcenter3"> <i>Served with Fresh Fruit</i></div>
+  <div style="clear: both;"></div>
       <div class="breakfastcontent3">
-      <b>Quiche Lorraine </b><br>
+      Quiche Lorraine </b><br>
       Spinach Quiche <br>
       Breakfast Croissant <br>
       Club Croissant<br>
@@ -399,8 +416,8 @@ White Zifandel<br>
        Smoked Salmon & Bagel
         </div>
     <div class="breakfastcontent4">
-      Spinach & Cheese Croissant <br>
-      Turkey & Cheese Croissant <br>
+      Spinach-Cheese Croissant <br>
+      Turkey-Cheese Croissant <br>
       Sunrise Bagel<br>
       Veggie Bagel <br>
       Ultimate Bagel<br>
@@ -416,10 +433,12 @@ White Zifandel<br>
 
 
 
+
   <div id="starters" class="tab-pane fade" data-toggle="tab">
 
     <div id="infotext">
-      <p class="alignleftt">
+      <div class="starterscontent">
+  <br>
    Hummus <br>
    Baba Ghanooj <br>
    Lebnah<br>
@@ -431,8 +450,9 @@ White Zifandel<br>
    Beef Shawarma<br>
    Hot Wings <br>
    Chicken Strips
-</p>
-<p class="alignright">
+</div>
+<div class="starterscontent1">
+<br>
      Shawarma Beef Nachos<br>
    Chips & Salsa <br>
    Brie and Fruit Plate<br>
@@ -443,114 +463,118 @@ White Zifandel<br>
   Pesto Chicken Pizza <br>
   Pepperoni Pizza<br>
   Cheese Pizza
-</p>
+</div>
 </div>
 <div style="clear: both;"></div>
 </div>
 
 
   <div id="entrees" class="tab-pane fade" data-toggle="tab">
-       <h3> <i> Served with Salad or Soup</i></h3>
-  <p class="alignleftt">
-    Quiche Lorraine <br>
+       <div class="entreestitle"> <i>
+      <br>Includes Soup or Salad</i></div>
+  <div class="entreescontent">
+    <br>Quiche Lorraine <br>
     Spinach Quiche <br>
     Chicken Pie<br>
     Cheese Ravioli <br>
     Turkey Lasagna <br>
     Pesto Tortellini<br>
-    Chicken Burrito</p>
-    <p class="alighnright">
-      Veggie Burrito<br>
+    Chicken Burrito</div>
+    <div class="entreescontent1">
+      <br> Veggie Burrito<br>
       Turkey & Cheese Croissant<br>
       Spinach & Cheese Croissant<br>
       Beef Shawerma Plate<br>
       Beef Kabob Plate<br>
       Greek Beef Gyro Plate<br>
       Greek Chicken Gyro Plate
-    </p>
+    </div>
+    <div style="clear: both;"></div>
   </div>
 
 
 
     <div id="salads" class="tab-pane fade" data-toggle="tab">
-        <h3> <i> Served with Homemade Multi-Grain Bread, Butter & Fresh Fruit</i></h3>
-  <p class="alignleftt">
-    Greek<br>
+        <div class="saladtitle"> <i> <br> Includes Homemade Multi-Grain Bread, Butter & Fresh Fruit</i></div>
+  <div class="saladcontent">
+    <br>Greek<br>
     Fatoosh <br>
     Chicken Apple Pecan<br>
     Oriental Chicken<br>
-    Russian chicken Grapes & Pecan<br>
+    Russian Chicken Grapes & Pecan<br>
     Italian Chicken Curry & Pecan<br>
     Strawberry Spinach
-  </p>
-    <p class="alignrightt">
-      Falafel-Fatoosh<br>
+  </div>
+    <div class="saladcontent1">
+      <br>Falafel-Fatoosh<br>
       Smoked Salmon<br>
       Tuna<br>
       Caesar<br>
       Warm Spinach<br>
       House<br>
-    </p>
+    </div>
+        <div style="clear: both;"></div>
   </div>
+
+
   <div id="sandwiches" class="tab-pane fade" data-toggle="tab">
-<h3> Sandwiches</h3>
-<h3> <i> Your choice of Bread & Cheese <br>
-  Served with Chips and Pickles</i></h3>
-   <p class="alignleftt">
-      Turkey Club<br>
+    <div class="sandwichestitle"> <br> Sandwiches<br>
+<i> Your choice of Bread & Cheese<br>
+  Served with Chips and Pickles</i></div>
+   <div class="sandwichescontent">
+    <br>  Turkey Club<br>
     California Turkey<br>
     B.L.T.<br>
     Buffalo Spicy Chicken<br>
     Sicilian Muffuleta<br>
     Itialian <br>
     Spicy Italian
+  </div>
 
-   <p class="alignrightt">
-Veggie Melt<br>
+   <div class="sandwichescontent1">
+     <br> Veggie Melt<br>
   Fresh Veggie<br>
   Tuna/Tuna Melt<br>
   Beef Shawarma<br>
   Baghdad Beef Kabob<br>
   Greek Beef Gyro<br>
   Greek Chicken Gyro<br>
-  Russian Chicken Salad</p>
-<br><br><br><br><br><br><br><br><br><br>
-  <h3> Wraps</h3>
-  <h3> <i> Served with Chips</i></h3>
-  <p class="alignleftt">
-    Falafel<br>
+  Russian Chicken Salad</div>
+<div style="clear: both;"></div>
+
+  <div class="wrapstitle"><br> Wraps<br>
+   <i> Served with Chips</i></div>
+  <div class="wrapscontent">
+    <br> Falafel<br>
     Kabob<br>
     King Kabob<br>
     Spicy Buffalo Chicken<br>
     Spicy Pastrami Pesto<br>
-  </p>
-  <p class="alignrightt">
-    Hummus Veggie <br>
+  </div>
+  <div class=" wrapscontent1">
+    <br> Hummus Veggie <br>
     Caesar Chicken<br>
     Chicken<br>
     Veggie<br>
-  </p>
-  <br><br><br><br><br><br>
-  <h3> Paninis</h3>
- <h3> <i> Your choice of Bread & Cheese <br>
-  Served with Chips and Pickles</i></h3>
-  <p class="alignleftt">
-    Fresh Mozzarella<br>
+  </div>
+ <div style="clear: both;"></div>
+  <div class="paninistitle"> <br>Paninis<br>
+  <i>Served with Chips and Pickles</i></div>
+  <div class="paniniscontent">
+    <br> Fresh Mozzarella<br>
     Pesto Chicken<br>
     Chicken Ranch<br>
     Chicken Italiano
-  </p>
-  <p class="alignrightt">
-    Chicken Club<br>
+  </div>
+  <div class="paniniscontent1">
+    <br> Chicken Club<br>
     Ruben<br>
     Pastrami<br>
-  </p>
-
+  </div>
+<div style="clear: both;"></div>
 </div>
 
 </div>
-</div>
-
 </article>
 
 <!-- end menu1 -->
@@ -563,24 +587,6 @@ Veggie Melt<br>
 
 
 <!-- gallery -->
-<!--<article id="gallery">
-  <div id="galleryy">
-  <div class="container-fluid">
-  <div class="row">
-  <div class="col-sm-12">
-   <h2 style="font-family:Fjalla One">GALLERY<br><img src="bar.png" class="rectangle"> </h2>
-  <div class="col-xs-6 col-sm-6">
-    <img src="fatguy.jpg" class="img-responsive" alt="Responsive image">
-  </div>
-  <div class="col-xs-6 col-sm-6">
-    <img src="fatguy.jpg" class="img-responsive" alt="Responsive image">
-  </div>
-  </div>
-  </div>
-  </div>
-</div>
-</article> -->
-
 <div id="galleryy">
 <article id="gallery">
 <div class="container-fluid">
@@ -588,8 +594,8 @@ Veggie Melt<br>
 
   <div class="col-sm-12">
 
-    <h2 style="font-family:Fjalla One">GALLERY<br><img src="bar.png" class="rectangle"> </h2>
-
+    <h1 style="font-family:Fjalla One">GALLERY<br><img src="bar.png" class="rectangle"> </h1>
+<div class="gallerycontent">
   <div class="row">
 
     <div class="col-xs-6 col-sm-4">
@@ -616,7 +622,9 @@ Veggie Melt<br>
   </div>
 </div>
 </div>
+</div>
 </article>
+</div>
 </div>
 
 <!--  BETTER SAID;   <div id="containerrr">
@@ -641,11 +649,14 @@ Veggie Melt<br>
 
 
 <!-- hookah
-<div class="hookahspaces"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+
 <article id="hookah">
- <h2 style="font-family:Fjalla One">HOOKAH<br><img src="bar.png" class="rectangle">  </h2>
- <img src="hookahdecoy.jpg" class="titleimg">
+ <h1 style="font-family:Fjalla One">HOOKAH<br><img src="bar.png" class="rectangle">  </h1>
+
+ <div><img src="hookahdecoy.jpg" class="img-responsive" alt="Responsive image" class="hookahimg"></div>
+
 <div class="container">
+
   <div class="center">
     <ul class="nav nav-tabs centered">
   <li><a data-toggle="tab" href="#starbuzz">STARBUZZ</a></li>
@@ -653,11 +664,13 @@ Veggie Melt<br>
   <li><a data-toggle="tab" href="#cigars">CIGARS</a></li>
 </ul>
 </div>
+
 <div class="tab-content">
   <div id="starbuzz" class="tab-pane fade">
   <div id="infotext">
 
-  <p class="alignleftt">
+  <div class="starbuzzcontent">
+<br>
 Code 69<br>
 Apple<br>
 Apple Cinnamon<br>
@@ -686,9 +699,9 @@ Lemon Tea<br>
 Mellon Dew<br>
 Mango<br>
 Margarita<br>
-    </p>
-    <p class="alignrightt">
-
+    </div>
+<div class="starbuzzcontent1">
+<br>
 Marlet<br>
 Mojito<br>
 Passion Mojito<br>
@@ -716,16 +729,17 @@ Wild Berry<br>
 Wild Berry Mint<br>
 Wild Mint<br>
 Sex on the Beach
-</p>
-
 </div>
+</div>
+
 <div style="clear: both;"></div>
   </div>
 
   <div id="alfakher" class="tab-pane fade">
   <div id="infotext">
 
-  <p class="alignleftbfast">
+  <div class="alfakhercontent">
+<br>
 Apple<br>
 Apricot<br>
 Banana<br>
@@ -740,8 +754,9 @@ Double Apple<br>
 Grape<br>
 Grape Mint<br>
 Grenadine<br>
-    </p>
-    <p class="alignrightbfast">
+    </div>
+    <div class="alfakhercontent1">
+<br>
 Guava<br>
 Honey<br>
 Lemon<br>
@@ -754,7 +769,7 @@ Plum<br>
 Strawberry<br>
 Vanilla<br>
 Watermelon
-</p>
+</div>
 
 </div>
 <div style="clear: both;"></div>
@@ -763,49 +778,37 @@ Watermelon
   <div id="cigars" class="tab-pane fade">
   <div id="infotext">
 
-  <p class="alignleftbfast">
-
-    </p>
-    <p class="alignrightbfast">
-
-</p>
-
+  <div class="cigarscontent">
+<br>
+My Father<br>
+Romeo y Juliet<br>
+Cohiba<br>
+Antono
+    </div>
+    <div class="cigarscontent1">
+<br>
+Padron<br>
+JM<br>
+Pedron<br>
+Nica Libre
 </div>
+
+
 <div style="clear: both;"></div>
   </div>
-
-
-
-
-
-
-
-
-
-
+</div>
+</div>
 </article>
-<!-- end hookah --> --> 
-
-<!-- events/specials -->
-<article id="events">
-   <h2 style="font-family:Fjalla One">EVENTS<br><img src="bar.png" class="rectangle">  </h2>
-   <h4> HAPPY HOURS <BR>4PM-7PM<BR> EVERYDAY</h4>
+<!-- end hookah -->
 
 
-
-
-
-
-
-
-
-</article>
 <!-- end menu -->
-<!-- end events/specials -->
+
 
 <!-- catering -->
 <article id="catering">
-   <h2 style="font-family:Fjalla One">CATERING<br><img src="bar.png" class="rectangle">  </h2>
+   <h1 style="font-family:Fjalla One">CATERING <br> <img src="bar.png" class="rectangle2"></h1>
+
  <div class="abouttext">The Living Room offers fine dining to wholesale services, business catering, parties, and wedding celebrations. For more information, contact The Living Room location nearest you.
    <br>
    <button type="button" class="cateringbutt">FILL OUT FORM</button><br><br>
@@ -815,8 +818,8 @@ Watermelon
 
 <!-- about -->
 <article id="about">
-   <h2 style="font-family:Fjalla One">ABOUT<br><img src="bar.png" class="rectangle">  </h2>
-   <img src="livingroompeople.jpg" class="titleimg"><br><br>
+   <h1 style="font-family:Fjalla One">ABOUT<br><img src="bar.png" class="rectangle2">  </h1>
+   <img src="livingroompeople.jpg" class="aboutimg"><br><br>
  <div class= "abouttext">With (5) locations to serve you, The Living Coffeehouse is one of the finest coffeehouse and bistro in the San Diego Area. With the backing of culinary masters from around the world, only The Living Room can offer such a wonderful array of gourmet meals, pastries, and drinks.
 <br><br>
 Since it's conception in 1991, the Living Room has grown from its original location in the San Diego State University area, to a total of 5 Cafe's, including also those in La Jolla, Point Loma, and Historic Old Town San Diego and our newest addition and concept the Living Room Lounge in La Jolla.</div>
@@ -826,13 +829,12 @@ Since it's conception in 1991, the Living Room has grown from its original locat
    </article>
 <!-- end about -->
 <footer>
-
-    <br>
 <div id="infotext">
   <div class="footerimg">
-  <p class="alignleft"> (858)459-1187<br> Sunday-Friday 7AM-1AM<br> Saturday:7AM-2AM</p>
+  <div class="footercontent"> (858)459-1187<br> Sunday-Friday 7AM-1AM<br> Saturday:7AM-2AM</div>
 
-  <p class="alignright">Living Room <br> La Jolla,CA <br>JMS Design </p>
+  <div class="footercontent1">Living Room <br> La Jolla,CA <br>JMS Design </div>
+  <div style="clear: both;"></div>
 </div>
 <div style="clear: both;"></div>
 </div>
