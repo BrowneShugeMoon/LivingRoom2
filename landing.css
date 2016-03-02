@@ -1,19 +1,41 @@
 body {
-  background-color: white;
+  background-image: url("landing.jpg");
+
+/* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
   font-family: 'Roboto Condensed', sans-serif;
   color: black;
   text-align: center;
   font-size: 6em;
+  color: white;
 }
+
+
 
 h2 {
   font-family: 'Fjalla One', sans-serif;
-  color: red;
+  color: white;
 }
 
 p {
   font-family: 'Fjalla One', sans-serif;
   font-size: 1em;
+  color: black;
 }
 
 .logoimg{
@@ -38,9 +60,20 @@ img {
   margin-top: 5%;
 }
 
+.choose {
+margin-bottom: 4em;
+  /* default fallback */
+background: rgb(255, 255, 255) transparent;
+/* nice browsers */
+background: rgba(255, 255, 255, 0.4);
+/* IE 6/7 */
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+/* IE8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+}
+
 @media screen and (min-width: 760px) {
   #location {
     margin: 5% 20% 5% 20%;
   }
-
 }
