@@ -291,8 +291,8 @@ li {
 
 .coffeecontent{
   float: left;
-  padding-left:32%;
-  font-size:2em;
+  padding-left:30%;
+  font-size:2.2em;
   font-weight:normal;
   padding-bottom:20px;
   margin-top:-3em;
@@ -302,8 +302,8 @@ li {
 
 .coffeecontent1{
   float: right;
-  padding-right:28%;
-  font-size:2em;
+  padding-right:26%;
+  font-size:2.2em;
   font-weight:normal;
   padding-bottom:20px;
   margin-top:-3em;
@@ -313,8 +313,8 @@ li {
 /*ICED MENU*/
 .icedcontent{
   float: left;
-  padding-left:30%;
-  font-size:2em;
+  padding-left:29%;
+  font-size:2.2em;
   font-weight:normal;
   padding-bottom:20px;
   margin-top:-3em;
@@ -324,8 +324,8 @@ li {
 
 .icedcontent1{
   float: right;
-  padding-right:30%;
-  font-size:2em;
+  padding-right:29%;
+  font-size:2.2em;
   font-weight:normal;
   padding-bottom:20px;
   margin-top:-3em;
@@ -338,13 +338,13 @@ li {
     text-align: center;
     font-size:.8em;
     font-weight:normal;
-    margin-top:-4em;
+    margin-top:-8em;
   }
 
   .teacontent{
   float: left;
-  padding-left:26%;
-  font-size:2em;;
+  padding-left:25%;
+  font-size:2.2em;;
   font-weight:normal;
   padding-bottom:20px;
   margin-top:-1em;
@@ -354,8 +354,8 @@ li {
 
   .teacontent2{
   float: right;
-  padding-right:20%;
-  font-size:2em;
+  padding-right:19%;
+  font-size:2.2em;
   font-weight:normal;
   padding-bottom:20px;
   margin-top:-1em;
@@ -367,8 +367,8 @@ li {
 /*MOCHA MENU*/
 .mochacontent{
   float: left;
-  padding-left:25%;
-  font-size:2em;
+  padding-left:23%;
+  font-size:2.2em;
   font-weight:normal;
   padding-bottom:20px;
   margin-top:-3em;
@@ -379,8 +379,8 @@ li {
 
 .mochacontent1{
   float: right;
-  padding-right:31%;
-  font-size:2em;
+  padding-right:29%;
+  font-size:2.2em;
   font-weight:normal;
   padding-bottom:20px;
   margin-top:-3em;
@@ -519,8 +519,8 @@ li {
 .breakfastcenter2{
   text-align:center;
   font-family: 'Fjalla One', sans-serif;
-    font-size:1.5em;
-    font-weight:bold;
+  font-size:2.5em;
+  font-weight:bold;
 }
 .breakfastcenter3{
   text-align:center;
