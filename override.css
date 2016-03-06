@@ -38,6 +38,32 @@ a:active {
   font-weight: bold;
 }
 
+.menu a {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.menuu a {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.blackhead {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight:bolder;
+  font-size: 3em;
+  color:black;
+  margin-top: -3em;
+}
+
+.aboutimg {
+  margin-top: -5em;
+}
+
 @media screen and (min-width: 992px) {
 
 
@@ -52,18 +78,21 @@ li {
 }
 
 .aboutimg {
-  margin-top: -10em;
+  margin-top: -9em;
 }
+
 .menu a {
-  color: red;
+  color: white;
   font-size: 1.5em;
   font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 2px 2px black;
 }
 
 .menuu a {
-  color: red;
+  color: white;
   font-size: 1.5em;
   font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 2px 2px black;
 }
 
 .hookah a {
