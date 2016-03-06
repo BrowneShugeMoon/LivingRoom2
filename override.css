@@ -1,0 +1,105 @@
+
+.cateringbutt {
+  background: #ff0000;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  width: 400px;
+  height:140px;
+}
+
+
+.cateringbutt:hover {
+  background: #828282;
+  text-decoration: none;
+  color:white;
+}
+
+.cateringg a {
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+}
+
+.aboutt {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  margin: 0 8% 0 8%;
+  text-align: left;
+}
+
+a {
+  color: red;
+}
+
+a:active {
+  color: red;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+
+
+li {
+  color: red;
+}
+
+.aboutt {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1.3em;
+}
+
+.aboutimg {
+  margin-top: -10em;
+}
+.menu a {
+  color: red;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menuu a {
+  color: red;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hookah a {
+  color: red;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.cateringbutt {
+  background: #ff0000;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  width: 250px;
+  height:60px;
+}
+
+
+.cateringbutt:hover {
+  background: #828282;
+  text-decoration: none;
+  color:white;
+}
+
+.cateringg a {
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+}
+
+a:active {
+  color: red;
+  font-weight: bold;
+}
+
+
+}

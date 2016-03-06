@@ -1,3 +1,4 @@
+
 body {
   background-color: white;
   font-family: 'Roboto Condensed', sans-serif;
@@ -6,45 +7,72 @@ body {
   font-size: 6em;
 }
 
-.text {
+.bgimg {
+  background-image: url(info.png);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+.info {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.2em;
-  color: black;
+  font-size: 2.5em;
+  color: white;
+}
+
+.text {
+  margin-top: -5%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5em;
+  color: white;
+  text-align: right;
+}
+
+.text1 {
+  margin-top: -5%;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5em;
+  color: white;
   text-align: left;
 }
 
-.hours {
-  margin-top: -5%;
+.menu {
+  margin-left: 8%;
 }
-/*.nav-tabs > li, .nav-pills > li {
-    float:none;
-    display:inline-block;
-}
-/navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-  background-color:transparent !important;
 
+.menuu {
+  margin-left: 8%;
 }
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-  color:transparent !important;
-  background-color:transparent !important;
-}
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a {
-  background-image:none !important;
-  box-shadow: none !important;
-}
-.navbar-inverse .navbar-nav>li>a {
-  color:red !important;
-}
-.nav-tabs {
-    text-align:center;
 
-    }
-.nav {
-  margin-top:-60px;
-}*/
+.hookah {
+  margin-left: 8%;
+}
+
+.cateringg {
+  margin: -5% 8% 0 8%;
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: left;
+}
 
 .socialcontainer {
-  margin-top: -4em;
+  margin-top: -7em;
+  margin-bottom: 5em;
 }
 
 .container {
@@ -85,9 +113,7 @@ border-color:white;
   outline-width:0px;
   border-color:white;
 }
-.drinktitle{
-  margin-top:-2em;
-}
+
 .myNavbar{
 background-color:white;
 }
@@ -124,12 +150,14 @@ background-color:white;
     height:100px;
     background:red;
   }
+/*
 .socialimg {
   width:10%;
   height:10%;
   margin:0;
   margin-top:-8em;
-}
+}*/
+
 .logoimg{
   float:left;
   width:12%;
@@ -201,47 +229,32 @@ background
 
 
 
-h3 {
-  text-align:center;
 }
 
-h6{
-  text-align:center;
-  font-family:"Fjalla One";
-}
-}
-.upicon
-{
-  width:30px;
-  height:30px;
-}
 p {
     font-family: 'Roboto Condensed', sans-serif;
-    text-align: left;
-    font-size:1.2em;
+    text-align: center;
+    font-size: 6em;
     font-weight:normal;
-
-}
-.abouttext{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size:1.2em;
-    margin-top:.4em;
-    margin-left: 5%;
-    margin-right: 5%;
+    color:white;
 }
 
 }
-.cateringbutt{
-  background-color:red;
-  border-radius: 2px;
-  font-family: 'Roboto Condensed', sans-serif;
-  color:white;
-  border:solid;
-  width:200px;
-}
-h1 {
+
+.titlewhite {
   font-family: 'Fjalla One', sans-serif;
   font-weight:bolder;
+  font-size: 4em;
+  color:white;
+  margin-top: -2em;
+}
+
+.titleblack {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight:bolder;
+  font-size: 6em;
+  color:black;
+  margin-top: -2em;
 }
 
 li {
@@ -249,20 +262,6 @@ li {
   font-color: red;
 }
 
-.center{
-  text-align: center;
-}
-.centerr{
-  text-align: center;
-   font-weight:normal;
-   font-size:1em;
-   margin-top:-3em;
-}
-
-
-.containerr{
-  margin-left:auto;
-}
 .nav-tabs.centered > li, .nav-pills.centered > li {
     float:none;
     display:inline-block;
@@ -282,350 +281,20 @@ li {
 }
 
 
-/*DRINKS*/
-/*COFFEE MENU*/
-
-/*.coffeecontent{
-  float: left;
-  padding-left:30%;
-  font-size:2.2em;
-  font-weight:normal;
-  padding-bottom:20px;
-  margin-top:-3em;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align:right;
-} */
-
-.coffeecontent {
+.menucontent {
   text-align: left;
-  font-size: 2.2em;
+  font-size: 2.5em;
   padding-bottom: 20px;
   margin-top: .5em;
   font-family: 'Roboto Condensed', sans-serif;
+  color: black;
 }
 
-.coffeecontent1 {
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  margin-top: .5em;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-/*ICED MENU*/
-.icedcontent {
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  margin-top: .5em;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.icedcontent1 {
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  margin-top: .5em;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-/*TEA MENU*/
-.teatitle {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  font-size:1.5em;
-  font-weight:normal;
-  margin-top: .5em;
-  }
-
-.teacontent {
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.teacontent2 {
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-/*MOCHA MENU*/
-.mochacontent{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  margin-top: .5em;
-  font-family: 'Roboto Condensed', sans-serif;
-
-}
-
-.mochacontent1{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  margin-top: .5em;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-/*FRAPPE MENU*/
-.frappecontent{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  margin-top: .5em;
-  font-family: 'Roboto Condensed', sans-serif;
-
-}
-
-.frappecontent1{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  margin-top: .5em;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-/*ALCOHOL MENU*/
-.beercenter{
-  font-size:2.7em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: .5em;
-  }
-
-.alcoholleft{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.alcoholright{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.winecenter{
-  float:center;
-  font-size:2.7em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: 1em;
-
-}
-.winecenter2{
+.menucenter {
   float:center;
   font-size:2em;
-  font-family: 'Fjalla One', sans-serif;
-
-}
-.alcoholleftwine{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
   font-family: 'Roboto Condensed', sans-serif;
-
-}
-.alcoholrightwine{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.champagne{
-  float:center;
-  font-size:2.7em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: 1em;
-
-}
-.champagne2{
-  float:center;
-  font-size:2em;
-  font-family: 'Fjalla One', sans-serif;
-  margin-bottom: -4em;
-}
-
-
-/*FOOD*/
-/*BREAKFAST MENU*/
-
-.breakfastcenter{
-  float:center;
-  font-size:2em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: 1em;
-}
-
-.breakfastcontent{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.breakfastcontent2{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.breakfastcenter2{
-  float:center;
-  font-size:2.7em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: 1em;
-}
-.breakfastcenter3{
-  float:center;
-  font-size:2em;
-  font-family: 'Fjalla One', sans-serif;
-}
-.breakfastcontent3{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.breakfastcontent4{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-
-/*STARTERS*/
-.starterscontent{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-  margin-top: 1em;
-}
-
-.starterscontent1{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-  margin-top: 1em;
-}
-
-
-/*  ENTREES*/
-.entreestitle{
-  float:center;
-  font-size:1.5em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: 1em;
-}
-
-.entreescontent{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-.entreescontent1{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-/*SALADS*/
-.saladtitle{
-  float:center;
-  font-size:1.5em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: 1em;
-}
-
-.saladcontent{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.saladcontent1{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-
-
-/*SANDWICHES*/
-.sandwichestitle{
-  float:center;
-  font-size:2em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: 1em;
-
-}
-.sandwichescontent{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.sandwichescontent1{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-
-}
-
-.wrapstitle{
-  float:center;
-  font-size:2em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: 1em;
-}
-
-.wrapscontent{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.wrapscontent1{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.paninistitle{
-  float:center;
-  font-size:2em;
-  font-weight:bold;
-  font-family: 'Fjalla One', sans-serif;
-  margin-top: 1em;
-}
-.paniniscontent{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.paniniscontent1{
-  text-align: left;
-  font-size: 2.2em;
-  padding-bottom: 20px;
-  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: -1em;
 }
 
 
@@ -633,133 +302,54 @@ li {
   text-align:center;
   font-family: 'Roboto Condensed', sans-serif;
   font-size:2em;
-  font-weight:bold;
 }
 
 .gallerycontent {
   margin-top: -3em;
+  margin: -5% 10% 13% 10%;
 }
+
 /*HOOKAH MENU*/
 
-.hookahbanner {
-  margin-top: -6.5em;
+.hookahimg {
+  margin-top: -5em;
 }
 
-.starbuzzcontent{
-  float: left;
-  padding-left:10%;
-  font-size:1em;
-  font-weight:normal;
-  padding-bottom:20px;
-  margin-top:0em;
-  text-align:left;
-  font-family:'Roboto Condensed', sans-serif;
-}
-.starbuzzcontent1{
-  float: right;
-  padding-right:10%;
-  font-size:1em;
-   font-weight:normal;
-   padding-bottom:20px;
-   margin-top:0em;
-   text-align:left;
-   font-family: 'Roboto Condensed', sans-serif;
-}
-
-.alfakhercontent{
-  float: left;
-  padding-left:10%;
-  font-size:1em;
-  font-weight:normal;
-  padding-bottom:20px;
-  margin-top:0em;
-  text-align:left;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.alfakhercontent1{
-  float: right;
-  padding-right:10%;
-  font-size:1em;
-   font-weight:normal;
-   padding-bottom:20px;
-   margin-top:0em;
-   text-align:left;
-   font-family: 'Roboto Condensed', sans-serif;
-}
-.cigarscontent{
-  float: left;
-  padding-left:10%;
-  font-size:1em;
-  font-weight:normal;
-  padding-bottom:20px;
-  margin-top:0em;
-  text-align:left;
-  font-family: 'Roboto Condensed', sans-serif;
-}
-.cigarscontent1{
-  float: right;
-  padding-right:10%;
-  font-size:1em;
-   font-weight:normal;
-   padding-bottom:20px;
-   margin-top:0em;
-   text-align:left;
-   font-family:'Roboto Condensed', sans-serif;
-}
-
-
-.hookahimg{
-    margin-top:-4em;
-    align-content: center;
-    float: center;
-}
-
-
-
-.bgimg {
-  background-image: url(info.jpg);
-  /* Background image is centered vertically and horizontally at all times */
-  background-position: center center;
-
-  /* Background image doesn't tile */
-  background-repeat: no-repeat;
-
-  /* Background image is fixed in the viewport so that it doesn't move when
-     the content's height is greater than the image's height */
-  background-attachment: fixed;
-
-  /* This is what makes the background image rescale based
-     on the container's size */
-  background-size: cover;
-
-  /* Set a background color that will be displayed
-     while the background image is loading */
-  background-color: #464646;
-}
 
 
 /*GALLERY STUFF*/
 
-.containerrr{
-  width:200%;
-  height:300%;
-}
-
-.infoo {
+@media screen and (min-width: 992px) {
+p {
   margin-top: 4em;
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+  font-size: 4em;
 }
 
-@media screen and (min-width: 750px;) {
-  body {
-    background-color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 6em;
-  }
+.titleblack {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight:bolder;
+  font-size: 4em;
+  color:black;
+  margin-top: -2em;
+}
 
+.rectangle {
+  margin-bottom: 2em;
+}
+.socialcontainer {
+  margin-top: -6%;
+}
+.text {
+  font-size: 1.5em;
+}
 
-  .navbar-height{
+.text1 {
+  font-size: 1.5em;
+}
+
+  .navbar-height {
     height:10px !important;
   }
   .collapse .navbar-collapse{
@@ -804,7 +394,7 @@ li {
     margin:0;
   }
 
-  .alignleft {
+  /*.alignleft {
     float: left;
         padding-left:20px;
         font-size:1.2em;
@@ -852,23 +442,9 @@ li {
       float: right;
     padding-right:20px;
     font-size:1.2em;
-  }
+  } */
 
 
-  p {
-      font-weight: bold;
-      font-family: 'Roboto Condensed', sans-serif;
-      text-align: left;
-      font-size:1.2em;
-  }
-  .cateringbutt{
-    background-color:red;
-    border-radius: 2px;
-    font-family: 'Roboto Condensed', sans-serif;
-    color:white;
-    border:solid;
-    width:300px;
-  }
   .box-item {
       width: 75.5px;
       height: 75.5px;
@@ -877,37 +453,38 @@ li {
 
   }
 
-  .bigger {
-      height: 75.5px;
-      width:155px;
+  .menu {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
-  .smaller {
-      height: 155px;
-      width: 155px;
-  }
-  #containerrr {
-      height:250px;
-  }
+.menuu {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
-  #galleryy {
-    margin: 5% 10% 0% 10%;
-  }
+.gallerycontent {
+  margin-top: -8em;
+  margin-bottom: 8em;
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
-  .infoo {
-    background-color: transparent;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 5% 30% 10% 30%;
-  }
+.hookah {
+  margin-left: 15%;
+  margin-right: 15%;
+}
 
-  .socialcontainer {
-    margin-top: -6em;
-  }
+.catering {
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
-  .hours {
-    margin-top: 5%;
-  }
+.cateringg {
+  margin-top: -8em;
+  text-align: left;
+  font-size: 1.3em;
+}
 
 
   li {
@@ -915,480 +492,15 @@ li {
     color: red;
   }
 
-  .text {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.2em;
-    color: black;
+.menucontent {
+    font-size: 1.5em;
     text-align: center;
   }
 
 
-  .coffeecontent{
-    float: left;
-    padding-left:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-3em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-  }
-
-  .coffeecontent1{
-      float: right;
-    padding-right:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-3em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-  }
-
-  /*ICED MENU*/
-  .icedcontent{
-    float: left;
-    padding-left:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-3em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-  }
-
-  .icedcontent1{
-      float: right;
-    padding-right:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-3em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-  }
-  /*TEA MENU*/
-  .teatitle{
-      font-family: 'Fjalla One', sans-serif;
-      text-align: center;
-      font-size:.5em;
-      font-weight:normal;
-      margin-top:-3em;
-    }
-
-    .teacontent{
-    float: left;
-    padding-left:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-1em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-    }
-
-    .teacontent2{
-    float: right;
-    padding-right:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-1em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-
-    }
-
-  /*MOCHA MENU*/
-  .mochacontent{
-    float: left;
-    padding-left:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-3em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-
-  }
-
-  .mochacontent1{
-      float: right;
-    padding-right:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-3em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-  }
-
-  /*FRAPPE MENU*/
-  .frappecontent{
-    float: left;
-    padding-left:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-3em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-
-  }
-
-  .frappecontent1{
-      float: right;
-    padding-right:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:-3em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-  }
-  /*ALCOHOL MENU*/
-  .beercenter{
-    float:center;
-    font-size:3em;
-    font-weight:bold;
-    font-family: 'Fjalla One', sans-serif;
-    margin-top:-.9em;
-    }
-
-  .alcoholleft{
-   float: left;
-    padding-left:33%;
-    font-size:1.5em;
-     font-weight:normal;
-     padding-bottom:20px;
-     margin-top:-.9em;
-  }
-  .alcoholright{
-    float: right;
-    padding-right:33%;
-     font-weight:normal;
-    font-size:1.5em;
-    margin-top:-.9em;
-
-  }
-  .winecenter{
-    float:center;
-    font-size:1.5em;
-    font-weight:bold;
-    font-family: 'Fjalla One', sans-serif;
-
-  }
-  .winecenter2{
-    float:center;
-    font-size:1.5em;
-    font-weight:bold;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-top:-.5em;
-
-  }
-  .alcoholleftwine{
-   float: left;
-    padding-left:33%;
-    font-size:1.5em;
-     font-weight:normal;
-     padding-bottom:20px;
-     font-family: 'Roboto Condensed', sans-serif;
-     text-align:left;
-
-  }
-  .alcoholrightwine{
-    float: right;
-    padding-right:33%;
-     font-weight:normal;
-    font-size:1.5em;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align:left;
-  }
-
-  .champagne{
-    float:center;
-    font-size:2.5em;
-    font-weight:bold;
-    font-family: 'Fjalla One', sans-serif;
-
-  }
-  .champagne2{
-      float:center;
-    font-size:1.5em;
-    font-weight:bold;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-top:-.5em;
-  }
-
-  /*FOOD*/
-  /*BREAKFAST MENU*/
-
-  .breakfastcenter{
-    text-align:center;
-    font-family: 'Fjalla One', sans-serif;
-    font-size:1.5em;
-    font-weight:bold;
-  }
-  .breakfastcontent{
-     float: left;
-      text-align:left;
-     padding-left:25%;
-     font-size:1.5em;
-      font-weight:normal;
-        font-family: 'Roboto Condensed', sans-serif;
-  }
-  .breakfastcontent2{
-    float:right;
-     text-align:left;
-    padding-right:25%;
-    font-size:1.5em;
-     font-weight:normal;
-       font-family: 'Roboto Condensed', sans-serif;
-  }
-  .breakfastcenter2{
-    text-align:center;
-    font-family: 'Roboto Condensed', sans-serif;
-      font-size:2em;
-      font-weight:bold;
-  }
-  .breakfastcenter3{
-    text-align:center;
-    font-family: 'Roboto Condensed', sans-serif;
-      font-size:1.5em;
-      font-weight:bold;
-  }
-  .breakfastcontent3{
-    float: left;
-    padding-left:25%;
-    text-align:left;
-    font-size:1.5em;
-    font-weight:normal;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  .breakfastcontent4{
-      float: right;
-    padding-right:20%;
-    font-size:1.5em;
-    text-align:left;
-     font-weight:normal;
-       font-family: 'Roboto Condensed', sans-serif;
-  }
-
-
-  /*STARTERS*/
-  .starterscontent{
-    float: left;
-    padding-left:33%;
-    font-size:1.5em;
-    font-weight:normal;
-         padding-bottom:20px;
-     text-align:left;
-         font-family: 'Roboto Condensed', sans-serif;
-  }
-
-  .starterscontent1{
-      float: right;
-    padding-right:33%;
-    font-size:1.5em;
-     font-weight:normal;
-     padding-bottom:20px;
-  text-align:left;
-     font-family: 'Roboto Condensed', sans-serif;
-  }
-
-
-  /*  ENTREES*/
-  .entreestitle{
-    text-align:center;
-    font-family: 'Fjalla One', sans-serif;
-    font-size:1.5em;
-    font-weight:bold;
-  }
-
-  .entreescontent{
-     float: left;
-    padding-left:25%;
-    text-align:left;
-    font-size:1.5em;
-    font-weight:normal;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-
-  .entreescontent1{
-        float: right;
-    padding-right:25%;
-    font-size:1.5em;
-    text-align:left;
-     font-weight:normal;
-       font-family: 'Roboto Condensed', sans-serif;
-  }
-
-  /*SALADS*/
-  .saladtitle{
-     text-align:center;
-    font-family: 'Fjalla One', sans-serif;
-    font-size:1.5em;
-    font-weight:bold;
-  }
-
-  .saladcontent{
-     float: left;
-    padding-left:25%;
-    text-align:left;
-    font-size:1.5em;
-    font-weight:normal;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  .saladcontent1{
-          float: right;
-    padding-right:25%;
-    font-size:1.5em;
-    text-align:left;
-     font-weight:normal;
-       font-family: 'Roboto Condensed', sans-serif;
-  }
-
-
-  /*SANDWICHES*/
-  .sandwichestitle{
-     text-align:center;
-    font-family: 'Fjalla One', sans-serif;
-    font-size:1.5em;
-    font-weight:bold;
-
-  }
-  .sandwichescontent{
-     float: left;
-    padding-left:25%;
-    text-align:left;
-    font-size:1.5em;
-    font-weight:normal;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  .sandwichescontent1{
-          float: right;
-    padding-right:25%;
-    font-size:1.5em;
-    text-align:left;
-     font-weight:normal;
-       font-family: 'Roboto Condensed', sans-serif;
-
-  }
-
-  .wrapstitle{
-     text-align:center;
-    font-family: 'Fjalla One', sans-serif;
-    font-size:1.5em;
-    font-weight:bold;
-  }
-
-  .wrapscontent{
-     float: left;
-    padding-left:25%;
-    text-align:left;
-    font-size:1.5em;
-    font-weight:normal;
-    font-family:'Roboto Condensed', sans-serif;
-  }
-  .wrapscontent1{
-          float: right;
-    padding-right:25%;
-    font-size:1.5em;
-    text-align:left;
-     font-weight:normal;
-       font-family: 'Roboto Condensed', sans-serif;
-  }
-  .paninistitle{
-     text-align:center;
-    font-family: 'Fjalla One', sans-serif;
-    font-size:1.5em;
-    font-weight:bold;
-  }
-  .paniniscontent{
-     float: left;
-    padding-left:25%;
-    text-align:left;
-    font-size:1.5em;
-    font-weight:normal;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  .paniniscontent1{
-            float: right;
-    padding-right:25%;
-    font-size:1.5em;
-    text-align:left;
-     font-weight:normal;
-       font-family: 'Roboto Condensed', sans-serif;
-  }
-
-  .starbuzzcontent{
-    float: left;
-    padding-left:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:0em;
-    text-align:left;
-    font-family:'Roboto Condensed', sans-serif;
-  }
-  .starbuzzcontent1{
-    float: right;
-    padding-right:33%;
-    font-size:1.5em;
-     font-weight:normal;
-     padding-bottom:20px;
-     margin-top:0em;
-     text-align:left;
-     font-family: 'Roboto Condensed', sans-serif;
-  }
-
-  .alfakhercontent{
-    float: left;
-    padding-left:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:0em;
-    text-align:left;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  .alfakhercontent1{
-    float: right;
-    padding-right:33%;
-    font-size:1.5em;
-     font-weight:normal;
-     padding-bottom:20px;
-     margin-top:0em;
-     text-align:left;
-     font-family: 'Roboto Condensed', sans-serif;
-  }
-  .cigarscontent{
-    float: left;
-    padding-left:33%;
-    font-size:1.5em;
-    font-weight:normal;
-    padding-bottom:20px;
-    margin-top:0em;
-    text-align:left;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  .cigarscontent1{
-    float: right;
-    padding-right:33%;
-    font-size:1.5em;
-     font-weight:normal;
-     padding-bottom:20px;
-     margin-top:0em;
-     text-align:left;
-     font-family:'Roboto Condensed', sans-serif;
-  }
-
-  .abouttext{
-      font-family: 'Roboto Condensed', sans-serif;
-      font-size:1.2em;
-      margin-top:.4em;
-      margin-left: 5%;
-      margin-right: 5%;
+  .hookahimg {
+    margin-top: -8em;
+    margin-bottom: 9em;
   }
 
   .footercontent{
@@ -1491,10 +603,3 @@ li {
 #containerrr {
     height:250px;
 }
-
-.cateringg {
-  margin: 0 5% 0 5%;
-  margin-bottom: 8em;
-  font-size: 2em;
-}
-@media screen and (min-width:700px) {

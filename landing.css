@@ -1,5 +1,5 @@
 body {
-  background-image: url("landing.jpg");
+  background-image: url("IMG_5765.png");
 
 /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -19,7 +19,7 @@ body {
      while the background image is loading */
   background-color: #464646;
   font-family: 'Roboto Condensed', sans-serif;
-  color: black;
+  color: white;
   text-align: center;
   font-size: 6em;
   color: white;
@@ -27,17 +27,23 @@ body {
   padding-right: -10%;
 }
 
+a {
+  text-decoration: none;
+}
 
+a:hover, a:active, a:link {
+  text-decoration: none;
+}
 
-h2 {
-  font-family: 'Fjalla One', sans-serif;
-  color: white;
+a:link {
+  text-decoration: none;
 }
 
 p {
   font-family: 'Fjalla One', sans-serif;
   font-size: 2em;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px black;
 }
 
 .logoimg{
@@ -67,7 +73,7 @@ margin-bottom: 4em;
   /* default fallback */
 background: rgb(255, 255, 255) transparent;
 /* nice browsers */
-background: rgba(255, 255, 255, 0.4);
+background: rgba(255, 255, 255, 0.2);
 /* IE 6/7 */
 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
 /* IE8 */
