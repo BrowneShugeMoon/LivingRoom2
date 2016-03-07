@@ -52,7 +52,7 @@ body {
 }
 
 .bgimg3 {
-  background-image: url(smoke.jpg);
+  background-image: url(smoke.JPG);
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
 
@@ -72,6 +72,15 @@ body {
   background-color: #464646;
 }
 
+.gallery {
+  background-color: RGB(154, 109, 56);
+  background-color: rgba(154, 109, 56, 0.5);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ /* For IE 8*/
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+ margin-top: -7em;
+}
 
 .info {
   font-family: 'Roboto Condensed', sans-serif;
@@ -118,6 +127,26 @@ body {
   font-size: 2em;
   font-family: 'Roboto Condensed', sans-serif;
   text-align: left;
+}
+
+.catering {
+  background-color: RGB(154, 109, 56);
+  background-color: rgba(154, 109, 56, 0.5);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ /* For IE 8*/
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+ margin-top: -14.5em;
+}
+
+.about {
+  background-color: RGB(154, 109, 56);
+  background-color: rgba(154, 109, 56, 0.7);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ /* For IE 8*/
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+ margin-top: 2.8em;
 }
 
 .socialcontainer {
@@ -534,6 +563,16 @@ p {
   margin-top: 3em;
 }
 
+.gallery {
+  background-color: RGB(154, 109, 56);
+  background-color: rgba(154, 109, 56, 0.5);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ /* For IE 8*/
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+ margin-top: -2.5em;
+}
+
 .gallerycontent {
   margin-top: -10em;
   margin-bottom: 10em;
@@ -548,14 +587,31 @@ p {
 }
 
 .catering {
-  margin-left: 20%;
-  margin-right: 20%;
+  background-color: RGB(154, 109, 56);
+  background-color: rgba(154, 109, 56, 0.5);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ /* For IE 8*/
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+ margin-top: 3.8em;
+}
+
+.about {
+  background-color: RGB(154, 109, 56);
+  background-color: rgba(154, 109, 56, 0.7);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ /* For IE 8*/
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+ margin-top: 5.2em;
 }
 
 .cateringg {
-  margin-top: -4em;
+  margin-top: -8em;
   text-align: left;
   font-size: 1.3em;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 
