@@ -40,6 +40,7 @@ body {
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
+  margin-bottom: -4.5em;
 }
 
 
@@ -85,6 +86,29 @@ body {
      while the background image is loading */
   background-color: #464646;
   margin-top: 6.2em;
+}
+
+.bgimg4 {
+  background-image: url(about.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  margin-bottom: 2em;
+  margin-top: 2.2em;
 }
 
 .gallery {
@@ -154,16 +178,16 @@ body {
  margin-top: -14.5em;
 }
 
-.about {
+/* .about {
   background-color: RGB(154, 109, 56);
-  background-color: rgba(154, 109, 56, 0.7);
-  /* For IE 5.5 - 7*/
+  background-color: rgba(154, 109, 56, 0.2);
+  /* For IE 5.5 - 7
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
- /* For IE 8*/
+ /* For IE 8
  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
  margin-top: 1.7em;
 }
-
+*/
 .socialcontainer {
   margin-top: -7em;
   margin-bottom: 5em;
@@ -497,15 +521,37 @@ p {
 
   }
 
-  .menu {
-    margin-left: 15%;
-    margin-right: 15%;
+.menu {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
 .menuu {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: 3em;
+}
+
+.bgimg {
+  background-image: url(info.png);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  margin-bottom: 2em;
 }
 
 .gallery {
@@ -521,13 +567,13 @@ p {
 .gallerycontent {
   margin-top: -10em;
   margin-bottom: 10em;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 17%;
+  margin-right: 17%;
 }
 
 .hookah {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-top: -21%;
 }
 
@@ -541,22 +587,22 @@ p {
  margin-top: 3.8em;
 }
 
-.about {
+/* .about {
   background-color: RGB(154, 109, 56);
   background-color: rgba(154, 109, 56, 0.7);
-  /* For IE 5.5 - 7*/
+  /* For IE 5.5 - 7
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
- /* For IE 8*/
+ /* For IE 8
  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
  margin-top: 5.2em;
-}
+} */
 
 .cateringg {
   margin-top: -8em;
   text-align: left;
   font-size: 1.3em;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 
@@ -567,7 +613,7 @@ p {
 
 .menucontent {
     font-size: 1.5em;
-    text-align: center;
+    text-align: left;
     color:white;
     text-shadow: 2px 2px black;
   }
@@ -611,12 +657,6 @@ p {
   }
 
 }
-
-@media (max-width: 1200px) {
-    .navbar-nav>li {
-        float: none!important;
-        display:none !important;
-    }
 
 
 /*FOOTER
