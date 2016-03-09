@@ -1,36 +1,30 @@
-/*NAV BAR DETAILS 2.0*/
 
-ul#navigation {
-    height: 60px;
-    list-style: none;
-    margin: 0;
-    padding:0;
-    border: 1px solid black;
-    border-width: 35px 0;
-    text-align: center;
-    font-size: 27px;
-    font-family: 'Fjalla One', sans-serif;
-    background-color: black;
-    position: fixed;   /* new */
-    bottom: 10;
-    width: 100%;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center; /* align vertical */
-    z-index:100;
-  }
 
-ul#navigation li {
-    display: inline;
-    margin-right: .75em;
-    list-style: none;
-    margin: 25px;
-    color:white;
-}
 
-ul#navigation li.last {
-    margin-right: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cateringbutt {
   background: #ff0000;
@@ -41,7 +35,6 @@ ul#navigation li.last {
   width: 400px;
   height:140px;
 }
-
 
 .cateringbutt:hover {
   background: #828282;
@@ -60,8 +53,6 @@ ul#navigation li.last {
   font-size: 1.2em;
   margin: 0 8% 0 8%;
   text-align: left;
-  color: white;
-  text-shadow: 2px 2px black;
 }
 
 a {
@@ -143,7 +134,7 @@ a.one:active {
   margin-bottom: 10%;
 }
 
-/*MENU TABS*/
+/*  MENU TABS*/
   .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     background-color:transparent!important;
     border-width:4px!important;
@@ -157,7 +148,6 @@ a.one:active {
   border-color:transparent!important;
   color:white!important;
 }
-
 
 @media screen and (min-width: 992px) {
 
@@ -206,7 +196,9 @@ li {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-
+.navy a{
+  color:white!important;
+}
 .cateringbutt {
   background: #ff0000;
   font-family: 'Roboto Condensed', sans-serif;
@@ -234,4 +226,5 @@ a:active {
   color: red;
   font-weight: bold;
 }
-}
+
+

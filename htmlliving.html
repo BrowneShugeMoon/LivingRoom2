@@ -3,6 +3,7 @@
 <html>
 <head>
   <!-- Latest compiled and minified CSS -->
+
 <link type="text/css" rel="stylesheet" href="cssliving.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link type="text/css" rel="stylesheet" href="override.css"/>
@@ -15,28 +16,35 @@
 
 <body>
 
+       <!-- title image -->
+
+    <!--<img src="coffee1.jpg" class="titleimg">-->
+        <!-- end title image -->
+
+
+ <!-- <div id="MenuContainer">
+            <ul id="navigation">
+                <li class="list"><a class="navy" title="info" href="#info" >INFO</a></li>
+                <li class="list"><a class="navy" title="menu" href="#drink" >DRINK</a></li>
+                <li class="list"><a class="navy" title="info" href="#eat" >EAT</a></li>
+                <li class="list"><a class="navy" title="gallery" href="#gallery" >GALLERY</a></li>
+                <li class="list"><a class="navy" title="hookah" href="#hookah" >HOOKAH</a></li>
+                <li class="list"><a class="navy" href="#catering" >CATERING</a></li>
+                <li class="list" class="navy" class="last"><a title="list" href="#about" >ABOUT</a></li>
+            </ul>
+
+        </div>  -->
+
     <!-- info -->
 
-<div id="MenuContainer">
-  <ul id="navigation">
-    <a href="index.html"> <img src="livingRoom1.png" height="45px" hspace="20px"> </a>
-    <li class="list"><a class="navy" title="info" href="#info" >INFO</a></li>
-    <li class="list"><a class="navy" title="menu" href="#menu" >MENU</a></li>
-    <li class="list"><a class="navy" title="gallery" href="#gallery" >GALLERY</a></li>
-    <li class="list"><a class="navy" title="hookah" href="#hookah" >HOOKAH</a></li>
-    <li class="list"><a class="navy" href="#catering" >CATERING</a></li>
-    <li class="list" class="navy" class="last"><a title="list" href="#about" >ABOUT</a></li>
-  </ul>
-</div>
-
-<div class="bgimg">
 <div class="infoo">
-
+   <div class="bgimg">
   <article id="info">
-    <br><br>
+    <br><br><br>
+ 
     <div class="titleblack"><br><br>I N F O</div>
   <div class="bar"></div>
-   <br><br>
+   <br>
 
 
 <div class = "row">
@@ -60,19 +68,117 @@
     <div class="row">
       <div class="col-xs-6 col-sm-6">
       <div class="text">
-        Closes in 3 Hours<br>
-          <a class="one"
+        <a id="demo" class="closes"></a>
+        <br>
+                  <a class="one"
             href="tel:+8584591187">
             (858)-459-1187
           </a>
           <br>
-        -Click to call <br><br>
-        Sunday - Friday:<br>
-        Saturday:<br>
-        Happy Hour, everyday:<br>
-        <br><br><br>
+        Open Everyday:<br>
+        Happy Hours:<br>
+        <br>
+         <a class="btn btn-primary btn-lg" href="tel:+18584591187">CALL US</a><br><br><br><br>
       </div>
+
   </div>
+
+<script>
+    var d = new Date();
+    var time = d.getHours();
+    if (time==0)
+    {
+document.getElementById("demo").innerHTML = "Closes in 2 hours";
+    }
+    if (time==1){
+      document.getElementById("demo").innerHTML = "Closes in 1 hour";
+    }
+    if (time ==2){
+    document.getElementById("demo").innerHTML = "Opens in 4 hours";
+  }    
+    if (time==3)
+    {
+document.getElementById("demo").innerHTML = "Opens in 3 hours";
+    }
+    if (time==4){
+      document.getElementById("demo").innerHTML = "Opens in 2 hours ";
+    }
+    if (time ==5){
+    document.getElementById("demo").innerHTML = "Opens in 1 hour";
+  }
+
+
+
+
+   if (time==6)
+    {
+document.getElementById("demo").innerHTML = "Closes in 20 hours";
+    }
+    if (time==7){
+      document.getElementById("demo").innerHTML = "Closes in 19 hours";
+    }
+    if (time ==8){
+    document.getElementById("demo").innerHTML = "Closes in 18 hours";
+  }    
+    if (time==9)
+    {
+document.getElementById("demo").innerHTML = "Closes in 17 hours";
+    }
+    if (time==10){
+      document.getElementById("demo").innerHTML = "Closes in 16 hours";
+    }
+    if (time ==11){
+    document.getElementById("demo").innerHTML = "Closes in 15 hours";
+  }
+
+
+   if (time==12)
+    {
+document.getElementById("demo").innerHTML = "Closes in 14 hours";
+    }
+    if (time==13){
+      document.getElementById("demo").innerHTML = "Closes in 13 hours";
+    }
+    if (time ==14){
+    document.getElementById("demo").innerHTML = "Closes in 12 hours";
+  }    
+    if (time==15)
+    {
+document.getElementById("demo").innerHTML = "Closes in 11 hours";
+    }
+    if (time==16){
+      document.getElementById("demo").innerHTML = "Closes in 10 hours";
+    }
+    if (time ==17){
+    document.getElementById("demo").innerHTML = "Closes in 9 hours";
+  }
+
+
+
+   if (time==18)
+    {
+document.getElementById("demo").innerHTML = "Closes in 8 hours";
+    }
+    if (time==19){
+      document.getElementById("demo").innerHTML = "Closes in 7 hours";
+    }
+    if (time ==20){
+    document.getElementById("demo").innerHTML = "Closes in 6 hours";
+  }    
+    if (time==21)
+    {
+document.getElementById("demo").innerHTML = "Closes in 5 hours";
+    }
+    if (time==22){
+      document.getElementById("demo").innerHTML = "Closes in 4 hours";
+    }
+    if (time ==23){
+    document.getElementById("demo").innerHTML = "Closes in 3 hours";
+  }
+
+
+</script>
+
 
 
   <div class="col-xs-6 col-sm-6">
@@ -81,59 +187,39 @@
 
           1010 Prospect St. <br>
           La Jolla, CA<br>
-            -Google Maps Link
-        </a><br><br>
-        7AM - 1AM<br>
-        7AM - 2AM<BR>
-        12PM - 6PM<br><br><br>
+          
+            
+        </a>
+        6AM - 2AM<br>
+        12PM - 6PM<br><br>
+        <button type="button" class="btn btn-primary btn-lg" href="https://www.google.com/maps/place/Living+Room+Coffeehouse/@32.8476839,-117.2748925,15z/data=!4m2!3m1!1s0x0:0x298672a9d94167b0">FIND US</button><br><br><br><br>
      </div>
   </div>
 </div>
 </div>
 </div>
 </div>
-</div><br><br><br><br>
+</div><br>
 </article>
 
 
-
-
-
-<!-- hi jamie!!-->
 <!-- end info -->
 
-<!--begin navbar -->
-<!--<div class="container">
-    <div class = "row">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <a href="index.html"> <img src="logo.jpg" class="logoimg"> </a>
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a style="font-family:Fjalla One" href="#info" data-toggle="collapse" data-target=".navbar-collapse"> INFO</a></li>
-            <li><a href="#menu" style="font-family:Fjalla One" data-toggle="collapse" data-target=".navbar-collapse">MENU</a></li>
-            <li><a style="font-family:Fjalla One" href="#gallery" data-toggle="collapse" data-target=".navbar-collapse">GALLERY</a></li>
-            <li><a style="font-family:Fjalla One" href="#hookah" data-toggle="collapse" data-target=".navbar-collapse">HOOKAH</a></li>
-            <li><a style="font-family:Fjalla One" href="#catering" data-toggle="collapse" data-target=".navbar-collapse">CATERING</a></li>
-            <li><a style="font-family:Fjalla One" href="#about" data-toggle="collapse" data-target=".navbar-collapse">ABOUT</a></li>
-          </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-    </div>
-</div>
+<!-- begin navbar -->
+
+ 
+          
 
 
-<!-- <li><a href="#products" class="hidden-xs">Products</a></li>
-<li><a href="#products" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Products</a></li> -->
+
+
+
+
+
+
+
+
+
 
 <!-- menu1 -->
 <div class="bgimg2">
@@ -143,7 +229,7 @@
       </div>
   <div class="bar"></div><br><br>
 
-<article id="menu" >
+<article id="drink" >
   <ul class="nav nav-tabs centered">
     <li class="active"><a data-toggle="tab" href="#coffee">Coffee</a></li>
     <li><a data-toggle="tab" href="#iced">Iced</a></li>
@@ -480,7 +566,7 @@
 <!-- end menu1 -->
 <!-- menu2 -->
 <div class="bgimg2">
-<article id="menuu">
+<article id="eat">
 <div class="menuu">
   <div class="titleblack">
       <br>E A T<br>
@@ -807,9 +893,7 @@
 </div>
 </div>
 </div>
-<br><br>
 </article>
-</div>
 </div>
 
 
@@ -1065,16 +1149,12 @@
   </div>
 </div>
 </div>
-<br>
-<br>
-<br>
 </div>
 </article>
 <br>
 <br>
 <br>
 <br>
-
 <!-- end hookah -->
 
 
@@ -1092,9 +1172,10 @@
   parties, and wedding celebrations. To cater from us, vist us in person or give us a call
   at (858) 459-1187 and ask for Sam for more details!
    <br><br>
-      <!--<center><button type="button" class="cateringbutt">
-        <a href="#">DOWNLOAD FORM</a>
-      </button></center>-->
+   <div class="wrapper">
+    <a class="btn btn-primary btn-xlg" href="livingroombrochure.pdf" download>
+      DOWNLOAD CATERING MENU</a> </div>
+
       <br>
    <br>
 </div>
@@ -1104,16 +1185,15 @@
 <br>
 <br>
 <!-- about -->
-<div class="bgimg4">
 <div class="about">
 <article id="about">
-  <div class="titleblack">
+  <div class="blackhead">
       <br>A B O U T<br>
     </div>
       <div class="bar"></div>
 
 <div class="aboutimg">
-      <!--  <img src="IMG_5801.JPG" class="img-responsive" alt="Responsive image">-->
+        <img src="IMG_5801.JPG" class="img-responsive" alt="Responsive image">
   </div>
 <div class="aboutt">
       <br>
@@ -1129,13 +1209,9 @@
       gourmet food, great service, and quality experience. In addition, the La Jolla location
       offers a wide range of alcoholic beverages and hookah/hookah flavors.  <br><br>
 
-      So come on in! Order a cup of a coffee, a chocolate muffin, (or even add some alcohol if you're
-      enjoying the La Jolla location) and make yourself at home.
-   <br><br><br>
 
 </div>
 </article>
-</div>
 </div>
 <!-- end about -->
 <footer>
@@ -1172,6 +1248,4 @@
 
 <script src="/path/to/masonry.pkgd.min.js"></script>
 <script src="js/masonry.js"></script>
-
-
 </html>
