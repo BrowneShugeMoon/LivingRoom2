@@ -1,0 +1,230 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cateringbutt {
+  background: #ff0000;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  width: 400px;
+  height:140px;
+}
+
+.cateringbutt:hover {
+  background: #828282;
+  text-decoration: none;
+  color:white;
+}
+
+.cateringg a {
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+}
+
+.aboutt {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2em;
+  margin: 0 8% 0 8%;
+  text-align: left;
+}
+
+a {
+  color: white;
+}
+
+a:active {
+  color: red;
+  font-weight: bold;
+}
+
+a:hover
+{
+     text-decoration:none!important;
+     color:inherit!important;
+}
+a.one{
+  color:white!important;
+}
+
+a.one:link {
+    text-decoration: none;
+}
+
+a.one:visited {
+    text-decoration: none;
+}
+
+a.one:hover {
+    text-decoration: none;
+}
+
+a.one:active {
+    text-decoration: none;
+}
+
+
+.menu a {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.menuu a {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.hookah a {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.blackhead {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight:bolder;
+  font-size: 3em;
+  color:black;
+  margin-top: -3em;
+}
+
+.aboutimg {
+  margin-top: -3em;
+}
+
+.bar {
+  width: 50%;
+  height: 5px;
+  background-color: red;
+  box-shadow: 2px 2px black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: 10%;
+}
+
+/*  MENU TABS*/
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color:transparent!important;
+    border-width:4px!important;
+    border-left:none!important;
+    border-right:none!important;
+    border-color:white!important;
+    color:white!important;
+  }
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color:transparent!important;
+  border-color:transparent!important;
+  color:white!important;
+}
+
+@media screen and (min-width: 992px) {
+
+  .bar {
+    width: 650px;
+    height: 5px;
+    background-color: red;
+    box-shadow: 2px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 15%;
+  }
+
+li {
+  color: red;
+}
+
+.aboutt {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 1.3em;
+}
+
+.aboutimg {
+  margin-top: -10em;
+}
+
+.menu a {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.menuu a {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-shadow: 2px 2px black;
+}
+
+.hookah a {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navy a{
+  color:white!important;
+}
+.cateringbutt {
+  background: #ff0000;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+  width: 250px;
+  height:60px;
+}
+
+
+.cateringbutt:hover {
+  background: #828282;
+  text-decoration: none;
+  color:white;
+}
+
+.cateringg a {
+  color:white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+}
+
+a:active {
+  color: red;
+  font-weight: bold;
+}
+
+
