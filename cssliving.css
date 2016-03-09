@@ -28,14 +28,14 @@ body {
     margin: 0;
     padding:0;
     border: 1px solid black;
-    border-width: 35px 0;    
+    border-width: 35px 0;
     text-align: center;
     font-size: 27px;
     font-family: 'Fjalla One', sans-serif;
     background-color: black;
-    position: fixed;   /* new 
-    bottom: 10;  
-    width: 100%;  
+    position: fixed;   /* new
+    bottom: 10;
+    width: 100%;
     z-index:100;
   }
 
@@ -80,7 +80,7 @@ li.hover{
 
 .bgimg2 {
   margin-top: 2em;
-  background-image: url(wood.jpg);
+  background-image: url(beans.jpg);
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
 
@@ -120,6 +120,28 @@ li.hover{
      while the background image is loading */
   background-color: #464646;
   margin-top: 6.2em;
+}
+
+.bgimg4 {
+  background-image: url(about.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  margin-top: 4em;
 }
 
 .gallery {
@@ -196,7 +218,7 @@ li.hover{
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
  /* For IE 8*/
  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
- margin-top: 1.7em;
+ margin-top: 1em;
 }
 
 .socialcontainer {
@@ -405,11 +427,18 @@ li {
 }
 
 .footercontent{
- font-size:.8em;
+  background-color: RGB(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.2);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+ /* For IE 8*/
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+ margin-top: -14.5em;
+ font-size:1em;
  text-align:center;
    font-family: 'Roboto Condensed', sans-serif;
    margin-top:2em;
-   color:black;
+   color:white;
 }
 
 
@@ -449,7 +478,7 @@ li {
 }
 /*GALLERY STUFF*/
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 600px) {
 p {
   margin-top: 4em;
   font-family: 'Fjalla One', sans-serif;
@@ -468,16 +497,6 @@ p {
 
 .rectangle {
   margin-bottom: 2em;
-}
-.socialcontainer {
-  margin-top: -12%;
-}
-.text {
-  font-size: 1.5em;
-}
-
-.text1 {
-  font-size: 1.5em;
 }
 
 
@@ -520,16 +539,6 @@ p {
 
   }
 
-  .menuu {
-    margin-left: 15%;
-    margin-right: 15%;
-  }
-
-.menu {
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 3em;
-}
 
 .gallery {
   background-color: RGB(154, 109, 56);
@@ -541,28 +550,9 @@ p {
  margin-top: -2.5em;
 }
 
-.gallerycontent {
-  margin-top: -10em;
-  margin-bottom: 10em;
-  margin-left: 15%;
-  margin-right: 15%;
-}
 
-.hookah {
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: -21%;
-}
 
-.catering {
-  background-color: RGB(154, 109, 56);
-  background-color: rgba(154, 109, 56, 0.5);
-  /* For IE 5.5 - 7*/
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
- /* For IE 8*/
- -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
- margin-top: 3.8em;
-}
+
 
 .about {
   background-color: RGB(154, 109, 56);
@@ -574,41 +564,12 @@ p {
  margin-top: 5.2em;
 }
 
-.cateringg {
-  margin-top: -8em;
-  text-align: left;
-  font-size: 1.3em;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-
   li {
     font-size: 1em;
     color: red;
   }
 
-.menucontent {
-    font-size: 1.5em;
-    text-align: center;
-    color:white;
-    text-shadow: 2px 2px black;
-  }
 
-.menucontent1 {
-      font-size: 1.5em;
-      text-align: center;
-      color:black;
-    }
-
-    .menucenter {
-      float:center;
-      font-size:1.5em;
-      font-family: 'Roboto Condensed', sans-serif;
-      margin-top: 1em;
-      color:white;
-      text-shadow: 2px 2px black;
-    }
 
   .hookahimg {
     margin-top: -9em;
@@ -620,7 +581,7 @@ p {
    text-align:center;
      font-family: 'Roboto Condensed', sans-serif;
      margin-top:2em;
-     color:black;
+     color:white;
   }
 
   .footercontent1{
