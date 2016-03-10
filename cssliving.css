@@ -284,6 +284,22 @@ li.hover{
   margin-right: 8%;
 }
 
+.menutitle {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3em;
+  margin-top: -2em;
+  margin-bottom: 2.7em;
+}
+
+.menutitle2 {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3em;
+  margin-top: -1em;
+  margin-bottom: 2.3em;
+}
+
 .hookah {
   margin-left: 8%;
   margin-right: 8%;
