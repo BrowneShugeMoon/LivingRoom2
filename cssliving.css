@@ -155,7 +155,6 @@ li.hover{
      on the container's size */
   background-size:cover;
 
-
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
@@ -163,7 +162,7 @@ li.hover{
 
 
 .bgimg2 {
-  margin-top: 2em;
+  margin-top: 8.5em;
   background-image: url(beans.jpg);
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -203,7 +202,7 @@ li.hover{
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
-  margin-top: 13em;
+  margin-top: 12.5em;
 }
 
 .bgimg4 {
