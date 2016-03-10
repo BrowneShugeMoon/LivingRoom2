@@ -49,8 +49,8 @@ p {
 .logoimg{
   margin-top: 5%;
   float:center;
-  width:10%;
-  height:10%;
+  width:20%;
+  height:20%;
 }
 
 img {
@@ -110,6 +110,13 @@ p {
 
 .logo {
   margin-top: -4em;
+}
+
+.logoimg{
+  margin-top: 5%;
+  float:center;
+  width:10%;
+  height:10%;
 }
 }
 

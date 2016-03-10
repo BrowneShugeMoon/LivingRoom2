@@ -51,9 +51,11 @@ ul#navigation li {
     margin: 0;
     padding-right:.7em;
   }
+
 .topimg{
 float:center;
 padding-top:100px;
+margin-bottom: -20%;
 }
 
 .space{
@@ -91,7 +93,7 @@ padding-top:100px;
 
 
 .bgimg2 {
-  margin-top: 9em;
+  margin-top: 12.5em;
   background-image: url(beans.jpg);
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -331,8 +333,8 @@ padding-top:100px;
 
 .logoimg{
   float:left;
-  width:12%;
-  height:12%;
+  width:15%;
+  height:15%;
 }
 .socialimg:hover{
 outline:none;
@@ -521,4 +523,9 @@ li {
 .wrapper {
     text-align: center;
 }
+
+.navimg {
+  display:block;
+  float:left;
+  margin-top: -15px;
 }

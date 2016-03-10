@@ -12,6 +12,22 @@
 
 </head>
 
+<div class="MainContainer">
+    </div>
+    <div id="MenuContainer">
+        <ul id="navigation">
+          <div class="navimg">
+            <a href="index.html">
+              <img src="livingRoom1.png" height="90" width="90">
+            </a>
+          </div>
+            <li class="x"><a title="1" href="#info" >INFO</a></li>
+            <li class="x"><a title="2" href="#drink" >MENU</a></li>
+            <li class="x"><a title="3" href="#gallery" >GALLERY</a></li>
+            <li class="x"><a title="5" href="#catering" >CATER</a></li>
+            <li class="x"><a title="6" href="#about" >ABOUT</a></li>
+        </ul>
+    </div>
 
 <body>
 
@@ -29,80 +45,174 @@
   </ul>
 </div>
 
-<div class="bgimg">
 <div class="infoo">
-
+   <div class="bgimg">
   <article id="info">
-    <br><br>
+    <div class="space2"></div>
+     <div class="topimg"><img src="livingroom1.png" height="500px" width="500px"></div>
+     <div class="space3"></div>
     <div class="titleblack"><br><br>I N F O</div>
   <div class="bar"></div>
-   <br><br>
+   <br>
+
+   <div class = "row">
+   <div class = "col-sm-12">
+         <!-- social media links -->
+         <div class="socialcontainer">
+           <span> <img src="wifi.png" height="40px" hspace="20"> </span>
+
+           <a href="http://www.yelp.com/biz/living-room-coffee-la-jolla">
+           <img src="yelp.png" height="40px" hspace="25">
+           </a>
+
+           <a href="https://www.facebook.com/The-Living-Room-La-Jolla-121921894540281/?fref=ts">
+           <img src="facebook.png" height="40px" hspace="25">
+           </a>
+
+           <a  href="https://www.instagram.com/explore/locations/216030724/">
+           <img src="instagram.png" height="40px" hspace="25">
+           </a>
+         </div>
+
+         <div class="row">
+           <div class="col-xs-6 col-sm-6">
+           <div class="text">
+             <a id="demo" class="closes"></a>
+             <br>
+                       <a class="one"
+                 href="tel:+6192868434">
+                 (619)-286-8434
+               </a>
+               <br>
+             Open Everyday:<br>
+             Happy Hours:<br>
+             <br>
+              <a class="btn btn-primary btn-lg" href="tel:+6192868434">CALL US</a><br><br><br><br>
+           </div>
+
+       </div>
+
+     <script>
+         var d = new Date();
+         var time = d.getHours();
+         if (time==0)
+         {
+     document.getElementById("demo").innerHTML = "Closes in 2 hours";
+         }
+         if (time==1){
+           document.getElementById("demo").innerHTML = "Closes in 1 hour";
+         }
+         if (time ==2){
+         document.getElementById("demo").innerHTML = "Opens in 4 hours";
+       }
+         if (time==3)
+         {
+     document.getElementById("demo").innerHTML = "Opens in 3 hours";
+         }
+         if (time==4){
+           document.getElementById("demo").innerHTML = "Opens in 2 hours ";
+         }
+         if (time ==5){
+         document.getElementById("demo").innerHTML = "Opens in 1 hour";
+       }
 
 
-<div class = "row">
-<div class = "col-sm-12">
-      <!-- social media links -->
-      <div class="socialcontainer">
-        <span> <img src="wifi.png" height="35px" hspace="20"> </span>
-
-        <a href="http://www.yelp.com/biz/living-room-coffee-la-jolla">
-        <img src="yelp.png" height="35px" hspace="25">
-        </a>
-
-        <a href="https://www.facebook.com/The-Living-Room-La-Jolla-121921894540281/?fref=ts">
-        <img src="facebook.png" height="35px" hspace="25">
-        </a>
-
-        <a  href="https://www.instagram.com/explore/locations/216030724/">
-        <img src="instagram.png" height="35px" hspace="25">
-        </a>
-      </div>
-    <div class="row">
-      <div class="col-xs-6 col-sm-6">
-      <div class="text">
-        Closes in 3 Hours<br>
-          <a class="one"
-            href="tel:+6192868434">
-            (619)-286-8434
-          </a>
-          <br>
-        -Click to call <br><br>
-
-        Monday-Sunday:<br>
-        Happy Hour, everyday:<br>
-        <br><br><br>
-      </div>
-  </div>
 
 
-  <div class="col-xs-6 col-sm-6">
-      <div class="text1">
-        <a class ="one"href="https://www.google.com/maps/place/5900+El+Cajon+Blvd,+San+Diego,+CA+92115/@32.7599579,-117.0726491,17z/data=!3m1!4b1!4m2!3m1!1s0x80d95699a8094d83:0x9c63e422b538cd6b">
+        if (time==6)
+         {
+     document.getElementById("demo").innerHTML = "Closes in 20 hours";
+         }
+         if (time==7){
+           document.getElementById("demo").innerHTML = "Closes in 19 hours";
+         }
+         if (time ==8){
+         document.getElementById("demo").innerHTML = "Closes in 18 hours";
+       }
+         if (time==9)
+         {
+     document.getElementById("demo").innerHTML = "Closes in 17 hours";
+         }
+         if (time==10){
+           document.getElementById("demo").innerHTML = "Closes in 16 hours";
+         }
+         if (time ==11){
+         document.getElementById("demo").innerHTML = "Closes in 15 hours";
+       }
 
-          5900 El Cajon Blvd <br>
-          San Diego, CA, 92115<br>
-            -Google Maps Link
-        </a><br><br>
 
-        6AM - 1AM<BR>
-        12PM - 6PM<br><br><br>
+        if (time==12)
+         {
+     document.getElementById("demo").innerHTML = "Closes in 14 hours";
+         }
+         if (time==13){
+           document.getElementById("demo").innerHTML = "Closes in 13 hours";
+         }
+         if (time ==14){
+         document.getElementById("demo").innerHTML = "Closes in 12 hours";
+       }
+         if (time==15)
+         {
+     document.getElementById("demo").innerHTML = "Closes in 11 hours";
+         }
+         if (time==16){
+           document.getElementById("demo").innerHTML = "Closes in 10 hours";
+         }
+         if (time ==17){
+         document.getElementById("demo").innerHTML = "Closes in 9 hours";
+       }
+
+
+
+        if (time==18)
+         {
+     document.getElementById("demo").innerHTML = "Closes in 8 hours";
+         }
+         if (time==19){
+           document.getElementById("demo").innerHTML = "Closes in 7 hours";
+         }
+         if (time ==20){
+         document.getElementById("demo").innerHTML = "Closes in 6 hours";
+       }
+         if (time==21)
+         {
+     document.getElementById("demo").innerHTML = "Closes in 5 hours";
+         }
+         if (time==22){
+           document.getElementById("demo").innerHTML = "Closes in 4 hours";
+         }
+         if (time ==23){
+         document.getElementById("demo").innerHTML = "Closes in 3 hours";
+       }
+
+
+     </script>
+
+
+
+       <div class="col-xs-6 col-sm-6">
+           <div class="text1">
+             <a class ="one"href="https://www.google.com/maps/place/5900+El+Cajon+Blvd,+San+Diego,+CA+92115/@32.7599579,-117.0726544,17z/data=!3m1!4b1!4m2!3m1!1s0x80d95699a8094d83:0x9c63e422b538cd6b">
+
+               5900 El Cajon Blvd. <br>
+               San Diego, CA<br>
+
+
+             </a>
+             6AM - 1AM<br>
+             12PM - 6PM<br><br>
+             <button type="button" class="btn btn-primary btn-lg" ><a href="https://www.google.com/maps/place/5900+El+Cajon+Blvd,+San+Diego,+CA+92115/@32.7599579,-117.0726544,17z/data=!3m1!4b1!4m2!3m1!1s0x80d95699a8094d83:0x9c63e422b538cd6b"> FIND US</a></button><br><br><br><br>
+             <div class="space4"></div>
+          </div>
+       </div>
      </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div><br><br><br><br>
-</article>
-
-
-
-
-
-
-
-
-
+     </div>
+     </div>
+     <br>
+     <br>
+     </div>
+     </div><br>
+     </article>
 
 
 
@@ -116,11 +226,11 @@
 <article id="drink">
 <div class="menu">
       <div class="titleblack">
-          <br>D R I N K<br>
+          <br>M E N U<br>
       </div>
   <div class="bar"></div><br><br>
 
-
+<div class="menutitle"> DRINK </div>
   <ul class="nav nav-tabs centered">
     <li class="active"><a data-toggle="tab" href="#coffee">Coffee</a></li>
     <li><a data-toggle="tab" href="#iced">Iced</a></li>
@@ -209,7 +319,7 @@
 <div id="tea" class="tab-pane fade" data-toggle="tab">
 <div class="row">
   <div class="col-sm-12">
-    <div class="menucenter" style="font-size:2.5em;">
+    <div class="menucenter" style="font-size:3.5em;">
       <i>CAFFEINATED</i>
     </div>
     <br>
@@ -245,7 +355,7 @@
   </div>
 
   <div class="col-sm-12">
-    <div class="menucenter" style="font-size:2.5em;">
+    <div class="menucenter" style="font-size:3.5em;">
       <i><br>DECAFFEINATED</i>
     </div>
     <br>
@@ -357,7 +467,7 @@
 <div id="alcohol" class="tab-pane fade" data-toggle="tab">
 <div class="row">
   <div class="col-sm-12">
-    <div class="menucenter" style="font-size:2.5em;">
+    <div class="menucenter" style="font-size:3.5em;">
       <i>BEER</i>
     </div>
     <br>
@@ -400,7 +510,7 @@
 </div>
 
 <div class="col-sm-12">
-  <div class="menucenter" style="font-size:2.5em;">
+  <div class="menucenter" style="font-size:3.5em;">
     <i>WINE</i><br>
   </div>
   <div class="menucenter">
@@ -432,7 +542,7 @@
 </div>
 
 <div class="col-sm-12">
-  <div class="menucenter" style="font-size:2.5em;">
+  <div class="menucenter" style="font-size:3.5em;">
     <i>CHAMPAGNE</i>
   </div>
   <div class="menucenter">
@@ -446,7 +556,7 @@
 </div>
 </div>
 </div>
-</div>
+
 
 </article>
 
@@ -456,13 +566,11 @@
 
 <!-- end menu1 -->
 <!-- menu2 -->
-<div class="bgimg2">
+
 <article id="eat">
 <div class="menuu">
-  <div class="titleblack">
-      <br>E A T<br>
-  </div>
-    <div class="bar"></div><br><br>
+<div class="menutitle2"> EAT </div><br>
+
     <ul class="nav nav-tabs centered">
     <li class="active"><a data-toggle="tab" href="#bfast">Breakfast</a></li>
   <li><a data-toggle="tab" href="#starters">Starter</a></li>
@@ -498,12 +606,12 @@
               Breakfast Burrito<br><br>
               Smoked Salmon & Bagel<br><br>
               Spinach-Cheese Croissant<br><br>
-              Turkey-Cheese Croissant<br><br>
-              Sunrise Bagel<br>
+              Turkey-Cheese Croissant<br>
             </div>
           </div>
           <div class="col-xs-2 col-sm-4">
             <div class="menucontent">
+              Sunrise bagel<br><br>
               Veggie Bagel<br><br>
               Ultimate Bagel<br><br>
               Bowl of Fresh Fruit<br><br>
@@ -678,7 +786,7 @@
 <div id="sandwiches" class="tab-pane fade" data-toggle="tab">
   <div class="row">
     <div class="col-sm-12">
-      <div class="menucenter" style="font-size:2.5em">
+      <div class="menucenter" style="font-size:3.5em">
         <i>SANDWICHES</i>
       </div>
       <div class="menucenter">
@@ -718,7 +826,7 @@
 
 
     <div class="col-sm-12">
-      <div class="menucenter" style="font-size:2.5em">
+      <div class="menucenter" style="font-size:3.5em">
         <i>WRAPS</i>
       </div>
       <div class="menucenter">
@@ -751,7 +859,7 @@
 
 
     <div class="col-sm-12">
-      <div class="menucenter" style="font-size:2.5em">
+      <div class="menucenter" style="font-size:3.5em">
         <i>PANINIS</i>
       </div>
       <div class="menucenter">
@@ -791,6 +899,7 @@
 <br>
 <br>
 
+
 <!-- gallery -->
 <div class="gallery">
 <article id="gallery">
@@ -800,27 +909,28 @@
       <div class="bar"></div><br>
 <div class="gallerycontent">
 <div class="row">
+
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/1.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/2.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/3.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/4.jpg" class="img-responsive" alt="Responsive image"><br>
+      <img src="./gallery/1.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/2.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/3.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/4.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
     </div>
 
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/5.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/7.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/12.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/8.jpg" class="img-responsive" alt="Responsive image"><br>
+      <img src="./gallery/5.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/7.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/12.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/8.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
     </div>
 
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/9.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/10.jpg" class="img-responsive" alt="Responsive image"><br>
+      <img src="./gallery/9.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/10.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
     </div>
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/11.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/6.jpg" class="img-responsive" alt="Responsive image"><br>
+      <img src="./gallery/11.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/6.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
   </div>
 
 </div>
@@ -829,9 +939,10 @@
   <p style="text-align:center; font-family:Fjalla One; font-size: 1.5em; color:white text-shadow: 2x 2px black;">
     Add your mark! <br> Post your pictures to Instagram & geotag us!<br>
 <br>
-<iframe src="http://widget.websta.me/in/location216253499/?r=1&w=4&h=4&b=0&p=5&sb=off"
+<iframe src="http://widget.websta.me/in/location4219106/?r=1&w=4&h=4&b=0&p=5&sb=off"
 allowtransparency="true" frameborder="0" scrolling="no"
-style="border:none;overflow:hidden;width:700px; height: 700px" ></iframe> <!-- websta - websta.me -->
+style="border:none;overflow:hidden;width:800px; height: 800px" >
+</iframe> <!-- websta - websta.me -->
 <br>
 <br>
 <br>
@@ -840,38 +951,14 @@ style="border:none;overflow:hidden;width:700px; height: 700px" ></iframe> <!-- w
 </article>
 
 
-<!--  BETTER SAID;   <div id="containerrr">
-    <div class="box-item bigger">A</div>
-    <div class="box-item bigger">B</div>
-    <div class="box-item bigger">C</div>
-    <div class="box-item">D</div>
-    <div class="box-item bigger">E</div>
-    <div class="box-item">F</div>
-    <div class="box-item">G</div>
-    <div class="box-item smaller">H</div>
-    <div class="box-item">I</div>
-    <div class="box-item bigger">J</div>
-    <div class="box-item bigger end">K</div>
-    <div class="box-item bigger">L</div>
-</div>
- -->
-<!-- end gallery -->
 
-
-
-
-
-<!-- hookah -->
+<!-- hookah
 <div class="bgimg3">
 <article id="hookah">
   <div class="titleblack">
       <br>H O O K A H<br>
     <div class="bar"></div>
   </div><br><br>
- <!--<div class="hookahimg">
-   <img src="temp.JPG" class="img-responsive" alt="Responsive image" class="hookahimg">
-   <br><br><br>
- </div>-->
 <div class="hookah">
   <div class="center">
     <ul class="nav nav-tabs centered">
@@ -1057,15 +1144,20 @@ style="border:none;overflow:hidden;width:700px; height: 700px" ></iframe> <!-- w
   Yes, you read correctly! Catering! The Living Room offers fine dining to wholesale services, business catering,
   parties, and wedding celebrations. To cater from us, vist us in person or give us a call
   at (858) 459-1187 and ask for Sam for more details!
-   <br><br>
+   <br><br><br>
    <div class="wrapper">
     <a class="btn btn-primary btn-xlg" href="livingroombrochure.pdf" download>
-      DOWNLOAD CATERING MENU</a> </div>
+      DOWNLOAD CATERING MENU</a> </div> <br><br>
 
       <br>
    <br>
+</div><br>
 </div>
-</div>
+<style>
+.catering {
+  margin-top: 12.5em;
+}
+</style>
 </article>
 <!-- end catering -->
 <br>
@@ -1089,7 +1181,7 @@ style="border:none;overflow:hidden;width:700px; height: 700px" ></iframe> <!-- w
       from European foundations, the Living Room Coffeehouse has adjusted to SoCal, offering
       you a European coffeeshop with a Californian flair. Both locations offer
       gourmet food, great service, and quality experience. In addition, the La Jolla location
-      offers a wide range of alcoholic beverages and hookah/hookah flavors.  <br><br><br><br>
+      offers a wide range of alcoholic beverages and hookah/hookah flavors.  <br><br><br>
 
 
 </div>
@@ -1102,31 +1194,28 @@ style="border:none;overflow:hidden;width:700px; height: 700px" ></iframe> <!-- w
 </div>
 
 </footer>
+
 </div>
+<div class="space"></div>
 </article>
+<script src="dist/js/lightbox.js"></script>
+<script>
+    lightbox.option({
+      'positionFromTop': 500,
+      'showImageNumberLabel': false,
+    })
+</script>
+
 </body>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.freetile.js"></script>
-<script type="text/javascript" src="js/init.js"></script>
-<script type="text/javascript" src="livingjs.js"></script>
 
-<link rel="stylesheet" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
-
 </script>
 
-<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
 
-<script src="ddscrollspy.js"></script>
-
-<script src="/path/to/masonry.pkgd.min.js"></script>
-<script src="js/masonry.js"></script>
 </html>
