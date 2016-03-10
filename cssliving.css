@@ -579,23 +579,23 @@ li {
   font-size:1em !important;
   text-align:center !important;
   vertical-align:center!important;
-   font-family: 'Fjalla One', sans-serif !important;
+  font-family: 'Fjalla One', sans-serif !important;
   padding-left:10px!important;
   padding-top:10px!important;
 }
+
 .btn-xlg{
   border-radius:5% !important;
   background-color:transparent!important;
 /*  background-color:rgba(154, 109, 56, 0.7)  !important;*/
   border-color: white !important;
   color:white!important;
-  height:3em !important;
+  height:2em !important;
   width:16em !important;
-  font-size:1em !important;
+  font-size:3em !important;
   text-align:center !important;
   vertical-align:center!important;
-  font-family: 'Roboto Condnensed', sans-serif !important;
-  padding-top:.4em!important;
+  font-family: 'Roboto Condensed', sans-serif !important;
   box-shadow:2!important;
 }
 
