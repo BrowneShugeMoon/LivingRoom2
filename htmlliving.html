@@ -9,6 +9,7 @@
 <link type="text/css" rel="stylesheet" href="override.css"/>
 <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+<link href="dist/css/lightbox.css" rel="stylesheet">
  <!--<nav>
          <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu">
          <ul class="main">
@@ -24,6 +25,18 @@
    </nav> -->
 
 </head>
+<div class="MainContainer">
+    </div>  
+    <div id="MenuContainer">
+        <ul id="navigation">
+            <li class="x"><a title="1" href="#info" >INFO</a></li>
+            <li class="x"><a title="2" href="#drink" >MENU</a></li>
+            <li class="x"><a title="3" href="#gallery" >PICS</a></li>
+            <li class="x"><a title="4" href="#hookah" >SMOKE</a></li>
+            <li class="x"><a title="5" href="#catering" >CATER</a></li>
+            <li class="x"><a title="6" href="#about" >ABOUT</a></li>
+        </ul>
+    </div> 
 
 
 <body>
@@ -46,7 +59,10 @@
 <div class="infoo">
    <div class="bgimg">
   <article id="info">
-    <div class="titleblack"><br><br><br><br>I N F O</div>
+    <div class="space2"></div>
+     <div class="topimg"><img src="livingroom1.png" height="500px" width="500px"></div>
+     <div class="space3"></div>
+    <div class="titleblack"><br><br>I N F O</div>
   <div class="bar"></div>
    <br>
 
@@ -55,18 +71,18 @@
 <div class = "col-sm-12">
       <!-- social media links -->
       <div class="socialcontainer">
-        <span> <img src="wifi.png" height="35px" hspace="20"> </span>
+        <span> <img src="wifi.png" height="70px" hspace="20"> </span>
 
         <a href="http://www.yelp.com/biz/living-room-coffee-la-jolla">
-        <img src="yelp.png" height="35px" hspace="25">
+        <img src="yelp.png" height="70px" hspace="25">
         </a>
 
         <a href="https://www.facebook.com/The-Living-Room-La-Jolla-121921894540281/?fref=ts">
-        <img src="facebook.png" height="35px" hspace="25">
+        <img src="facebook.png" height="70px" hspace="25">
         </a>
 
         <a  href="https://www.instagram.com/explore/locations/216030724/">
-        <img src="instagram.png" height="35px" hspace="25">
+        <img src="instagram.png" height="70px" hspace="25">
         </a>
       </div>
     <div class="row">
@@ -196,7 +212,8 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
         </a>
         6AM - 2AM<br>
         12PM - 6PM<br><br>
-        <button type="button" class="btn btn-primary btn-lg" href="https://www.google.com/maps/place/Living+Room+Coffeehouse/@32.8476839,-117.2748925,15z/data=!4m2!3m1!1s0x0:0x298672a9d94167b0">FIND US</button><br><br><br><br>
+        <button type="button" class="btn btn-primary btn-lg" ><a href="https://www.google.com/maps/place/Living+Room+Coffeehouse/@32.8476839,-117.2748925,15z/data=!4m2!3m1!1s0x0:0x298672a9d94167b0"> FIND US</a></button><br><br><br><br>
+        <div class="space4"></div>
      </div>
   </div>
 </div>
@@ -325,7 +342,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 <div id="tea" class="tab-pane fade" data-toggle="tab">
 <div class="row">
   <div class="col-sm-12">
-    <div class="menucenter" style="font-size:2.5em;">
+    <div class="menucenter" style="font-size:3.5em;">
       <i>CAFFEINATED</i>
     </div>
     <br>
@@ -361,7 +378,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
   </div>
 
   <div class="col-sm-12">
-    <div class="menucenter" style="font-size:2.5em;">
+    <div class="menucenter" style="font-size:3.5em;">
       <i><br>DECAFFEINATED</i>
     </div>
     <br>
@@ -473,7 +490,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 <div id="alcohol" class="tab-pane fade" data-toggle="tab">
 <div class="row">
   <div class="col-sm-12">
-    <div class="menucenter" style="font-size:2.5em;">
+    <div class="menucenter" style="font-size:3.5em;">
       <i>BEER</i>
     </div>
     <br>
@@ -516,7 +533,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 </div>
 
 <div class="col-sm-12">
-  <div class="menucenter" style="font-size:2.5em;">
+  <div class="menucenter" style="font-size:3.5em;">
     <i>WINE</i><br>
   </div>
   <div class="menucenter">
@@ -548,7 +565,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 </div>
 
 <div class="col-sm-12">
-  <div class="menucenter" style="font-size:2.5em;">
+  <div class="menucenter" style="font-size:3.5em;">
     <i>CHAMPAGNE</i>
   </div>
   <div class="menucenter">
@@ -575,8 +592,8 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 
 <article id="eat">
 <div class="menuu">
-<div class="menutitle2"> EAT </div>
-<br><br>
+<div class="menutitle2"> EAT </div><br>
+
     <ul class="nav nav-tabs centered">
     <li class="active"><a data-toggle="tab" href="#bfast">Breakfast</a></li>
   <li><a data-toggle="tab" href="#starters">Starter</a></li>
@@ -792,7 +809,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 <div id="sandwiches" class="tab-pane fade" data-toggle="tab">
   <div class="row">
     <div class="col-sm-12">
-      <div class="menucenter" style="font-size:2.5em">
+      <div class="menucenter" style="font-size:3.5em">
         <i>SANDWICHES</i>
       </div>
       <div class="menucenter">
@@ -832,7 +849,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 
 
     <div class="col-sm-12">
-      <div class="menucenter" style="font-size:2.5em">
+      <div class="menucenter" style="font-size:3.5em">
         <i>WRAPS</i>
       </div>
       <div class="menucenter">
@@ -865,7 +882,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 
 
     <div class="col-sm-12">
-      <div class="menucenter" style="font-size:2.5em">
+      <div class="menucenter" style="font-size:3.5em">
         <i>PANINIS</i>
       </div>
       <div class="menucenter">
@@ -905,6 +922,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 <br>
 <br>
 
+
 <!-- gallery -->
 <div class="gallery">
 <article id="gallery">
@@ -914,27 +932,28 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
       <div class="bar"></div><br>
 <div class="gallerycontent">
 <div class="row">
+
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/1.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/2.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/3.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/4.jpg" class="img-responsive" alt="Responsive image"><br>
+      <img src="./gallery/1.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/2.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/3.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/4.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
     </div>
 
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/5.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/7.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/12.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/8.jpg" class="img-responsive" alt="Responsive image"><br>
+      <img src="./gallery/5.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/7.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/12.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/8.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
     </div>
 
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/9.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/10.jpg" class="img-responsive" alt="Responsive image"><br>
+      <img src="./gallery/9.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/10.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
     </div>
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/11.jpg" class="img-responsive" alt="Responsive image"><br>
-      <img src="./gallery/6.jpg" class="img-responsive" alt="Responsive image"><br>
+      <img src="./gallery/11.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <img src="./gallery/6.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
   </div>
 
 </div>
@@ -945,7 +964,7 @@ document.getElementById("demo").innerHTML = "Closes in 5 hours";
 <br>
 <iframe src="http://widget.websta.me/in/location4219106/?r=1&w=4&h=4&b=0&p=5&sb=off"
 allowtransparency="true" frameborder="0" scrolling="no"
-style="border:none;overflow:hidden;width:700px; height: 700px" >
+style="border:none;overflow:hidden;width:800px; height: 800px" >
 </iframe> <!-- websta - websta.me -->
 <br>
 <br>
@@ -953,26 +972,6 @@ style="border:none;overflow:hidden;width:700px; height: 700px" >
 <br>
 </div>
 </article>
-
-
-<!--  BETTER SAID;   <div id="containerrr">
-    <div class="box-item bigger">A</div>
-    <div class="box-item bigger">B</div>
-    <div class="box-item bigger">C</div>
-    <div class="box-item">D</div>
-    <div class="box-item bigger">E</div>
-    <div class="box-item">F</div>
-    <div class="box-item">G</div>
-    <div class="box-item smaller">H</div>
-    <div class="box-item">I</div>
-    <div class="box-item bigger">J</div>
-    <div class="box-item bigger end">K</div>
-    <div class="box-item bigger">L</div>
-</div>
- -->
-<!-- end gallery -->
-
-
 
 
 
@@ -983,10 +982,6 @@ style="border:none;overflow:hidden;width:700px; height: 700px" >
       <br>H O O K A H<br>
     <div class="bar"></div>
   </div><br><br>
- <!--<div class="hookahimg">
-   <img src="temp.JPG" class="img-responsive" alt="Responsive image" class="hookahimg">
-   <br><br><br>
- </div>-->
 <div class="hookah">
   <div class="center">
     <ul class="nav nav-tabs centered">
@@ -1204,7 +1199,7 @@ style="border:none;overflow:hidden;width:700px; height: 700px" >
       from European foundations, the Living Room Coffeehouse has adjusted to SoCal, offering
       you a European coffeeshop with a Californian flair. Both locations offer
       gourmet food, great service, and quality experience. In addition, the La Jolla location
-      offers a wide range of alcoholic beverages and hookah/hookah flavors.  <br><br><br><br>
+      offers a wide range of alcoholic beverages and hookah/hookah flavors.  <br><br><br>
 
 
 </div>
@@ -1217,8 +1212,18 @@ style="border:none;overflow:hidden;width:700px; height: 700px" >
 </div>
 
 </footer>
+
 </div>
+<div class="space"></div>
 </article>
+<script src="dist/js/lightbox.js"></script>
+<script>
+    lightbox.option({
+      'positionFromTop': 500,
+      'showImageNumberLabel': false,
+    })
+</script>
+
 </body>
 
 

@@ -16,128 +16,56 @@ body {
 }
 
 
-
-
-
 /*NAV BAR DETAILS 2.0*/
-nav ul{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1080px;
-  margin: 0 auto;
-  list-style: none;
-  padding: 0;
-  position:static;
+.MainContainer {
+    width: 1200px;
+    background-color: black;
 }
-nav ul,
-nav li{
-  flex: 1;
+.MenuContainer {
+    height: 70px;
+    bottom:0;
 }
-nav li:last-child{border-bottom: none;}
-nav a{
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  font-size: 1.8rem;
-  position:static;
-}
-nav a:hover{
-  background: #adacac;
-  color: #fff;
-}
-nav li{
-  position: relative;
-  line-height: 50px;
-  color: #fff;
-  text-align: center;
-}
-nav input,
-nav label{
-  display: none;
-  width: 36px;
-  height: 36px;
-  background: #555;
-  color: #fff;
-  text-align: center;
-  line-height: 36px;
-  font-size: 1.6rem;
-  border-radius: 4px;
-}
-nav label{position: absolute; top: 8px; right: 8px; transition: .4s;}
-nav label:hover{cursor:pointer;}
-nav label:before{
-  font-family: FontAwesome;
-  font-size: 24px;
-  content: "\f0c9";
-  text-align: center;
-}
-
-/*************** MEDIA QUERIES *******************/
-@media only screen and (max-width: 1080px){
-  nav ul{
-    display: none;
-    box-shadow: 0 0 5px rgba(0,0,0, .7);
-
-  }
-  nav li{
-    flex: none;
-    width: 100%;
-    border-bottom: solid 1px #777;
-
-  }
-  nav input[type="checkbox"]:checked + ul{
-    display: block;
-    width: 100%;
-    background: #999;
-
-  }
-  nav label{display: block;
-position:fixed;
-  }
-  nav input[type="checkbox"]:checked + ul li:nth-child(1){
-    background: #777;
-    color: #fff;
-
-  }
-}
-
-
-
-
-
-
-/*ul#navigation {
-    height: 120px;
+ul#navigation {
+    height: 170px;
     list-style: none;
     margin: 0;
-    padding:0;
-    border: 1px solid black;
-    border-width: 35px 0;
+    padding: 0;
+
+  /*  border: 1px solid #ccc;*/
+    border-width: 10px 0;    
     text-align: center;
-    font-size: 27px;
+    font-size: 2.5em;
     font-family: 'Fjalla One', sans-serif;
     background-color: black;
-    position: fixed;   /* new
-    bottom: 10;
+    color:white;
+    position: fixed;
+    bottom: 0;
     width: 100%;
-    z-index:100;
-  }
-
+    z-index:1000;
+    padding-top:1.4em;
+}
 ul#navigation li {
     display: inline;
-    margin-right: .75em;
+    margin-right: .8em;
     list-style: none;
-    margin: 25px;
-    color:white;
+    margin: 0;
+    padding-right:.7em;
+  }
+.topimg{
+float:center;
+padding-top:100px;
+}
 
+.space{
+  height:170px;
+  width:100%;
+  background-color:black;
 }
-ul#navigation li.last {
-    margin-right: 0;
-}
-li.hover{
-  color:blue;
-}
-*/
+
+
+
+
+
 
 .bgimg {
   background-image: url(info.png);
@@ -155,6 +83,7 @@ li.hover{
      on the container's size */
   background-size:cover;
 
+
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
@@ -162,7 +91,7 @@ li.hover{
 
 
 .bgimg2 {
-  margin-top: 8.5em;
+  margin-top: 2em;
   background-image: url(beans.jpg);
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -202,7 +131,7 @@ li.hover{
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
-  margin-top: 12.5em;
+  margin-top: 13em;
 }
 
 .bgimg4 {
@@ -294,7 +223,7 @@ li.hover{
 .menutitle2 {
   color: white;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 3em;
+  font-size: 4em;
   margin-top: -1em;
   margin-bottom: 2.3em;
 }
@@ -578,23 +507,24 @@ li {
   font-size:1em !important;
   text-align:center !important;
   vertical-align:center!important;
-  font-family: 'Fjalla One', sans-serif !important;
+   font-family: 'Fjalla One', sans-serif !important;
   padding-left:10px!important;
   padding-top:10px!important;
 }
-
 .btn-xlg{
   border-radius:5% !important;
   background-color:transparent!important;
 /*  background-color:rgba(154, 109, 56, 0.7)  !important;*/
   border-color: white !important;
+  border-width:10px!important;
   color:white!important;
-  height:2em !important;
+  height:3em !important;
   width:16em !important;
   font-size:3em !important;
   text-align:center !important;
   vertical-align:center!important;
-  font-family: 'Roboto Condensed', sans-serif !important;
+  font-family: 'Roboto Condnensed', sans-serif !important;
+  padding-top:.4em!important;
   box-shadow:2!important;
 }
 
@@ -604,13 +534,15 @@ li {
 }
 /*GALLERY STUFF*/
 
-@media screen and (min-width: 600px) {
-p {
+@media only screen and (min-width: 768px) { 
+/*p {
   margin-top: 4em;
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
   font-size: 4em;
-}
+}*/
+/*NAV BAR DETAILS 2.0*/
+
 
 
 
@@ -633,21 +565,7 @@ p {
     height:10%;
     margin:0;
   }
-  .socialimg {
-    width:8%;
-    height:8%;
-    margin:0;
-  }
-  .logoimg{
-    float:left;
-    width:5%;
-    height:5%;
-  }
-  .socialimgg {
-    width:7%;
-    height:7%;
-    margin:0;
-  }
+
 
 
   .box-item {
