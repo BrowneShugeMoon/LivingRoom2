@@ -21,17 +21,17 @@ body {
 
 /*NAV BAR DETAILS 2.0*/
 nav ul{
-  display: flex; 
-  flex-wrap: wrap; 
-  max-width: 1080px; 
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1080px;
   margin: 0 auto;
   list-style: none;
-  padding: 0;   
+  padding: 0;
   position:static;
 }
 nav ul,
 nav li{
-  flex: 1;  
+  flex: 1;
 }
 nav li:last-child{border-bottom: none;}
 nav a{
@@ -50,19 +50,19 @@ nav li{
   line-height: 50px;
   color: #fff;
   text-align: center;
-}  
+}
 nav input,
 nav label{
   display: none;
-  width: 36px; 
-  height: 36px; 
-  background: #555; 
-  color: #fff; 
-  text-align: center; 
+  width: 36px;
+  height: 36px;
+  background: #555;
+  color: #fff;
+  text-align: center;
   line-height: 36px;
   font-size: 1.6rem;
   border-radius: 4px;
-} 
+}
 nav label{position: absolute; top: 8px; right: 8px; transition: .4s;}
 nav label:hover{cursor:pointer;}
 nav label:before{
@@ -75,30 +75,30 @@ nav label:before{
 /*************** MEDIA QUERIES *******************/
 @media only screen and (max-width: 1080px){
   nav ul{
-    display: none; 
+    display: none;
     box-shadow: 0 0 5px rgba(0,0,0, .7);
 
   }
   nav li{
-    flex: none; 
+    flex: none;
     width: 100%;
     border-bottom: solid 1px #777;
 
-  } 
+  }
   nav input[type="checkbox"]:checked + ul{
     display: block;
     width: 100%;
-    background: #999; 
-      
+    background: #999;
+
   }
   nav label{display: block;
 position:fixed;
-  }  
+  }
   nav input[type="checkbox"]:checked + ul li:nth-child(1){
-    background: #777; 
+    background: #777;
     color: #fff;
 
-  }  
+  }
 }
 
 
@@ -229,14 +229,26 @@ li.hover{
 }
 
 .gallery {
-  background-color: RGB(154, 109, 56);
-  background-color: rgba(154, 109, 56, 0.5);
-  /* For IE 5.5 - 7*/
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
- /* For IE 8*/
- -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
- margin-top: 5em;
- margin-bottom: 11em;
+  background-image: url(bg.JPG);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size:cover;
+
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  margin-top: 5em;
 }
 
 .info {
@@ -284,16 +296,30 @@ li.hover{
   font-size: 1.2em;
   font-family: 'Roboto Condensed', sans-serif;
   text-align: left;
+  color:white;
 }
 
 .catering {
-  background-color: RGB(154, 109, 56);
-  background-color: rgba(154, 109, 56, 0.5);
-  /* For IE 5.5 - 7*/
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
- /* For IE 8*/
- -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
- margin-top: -14.5em;
+  background-image: url(bg.JPG);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size:cover;
+
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+  margin-top: -14.5em;
 }
 
 .about {
@@ -571,14 +597,7 @@ p {
   font-size: 4em;
 }
 
-.titleblack {
-  font-family: 'Fjalla One', sans-serif;
-  font-weight:bolder;
-  font-size: 3em;
-  color:white;
-  margin-top: 10em;
-  text-shadow: 2px 2px black;
-}
+
 
 .rectangle {
   margin-bottom: 2em;
