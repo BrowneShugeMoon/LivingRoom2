@@ -93,7 +93,7 @@ margin-bottom: -20%;
 
 
 .bgimg2 {
-  margin-top: 12.5em;
+  margin-top: 12.7em;
   background-image: url(beans.jpg);
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -133,7 +133,7 @@ margin-bottom: -20%;
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
-  margin-top: 12.8em;
+  margin-top: 12.6em;
 }
 
 .bgimg4 {
@@ -155,7 +155,7 @@ margin-bottom: -20%;
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
-  margin-top: 5.3em;
+  margin-top: 5.2em;
 }
 
 .gallery {
@@ -178,7 +178,7 @@ margin-bottom: -20%;
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
-  margin-top: 5.3em;
+  margin-top: 5.1em;
 }
 
 .info {
@@ -265,7 +265,7 @@ margin-bottom: -20%;
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
-  margin-top: -14em;
+  margin-top: -14.2em;
 }
 
 .socialcontainer {
