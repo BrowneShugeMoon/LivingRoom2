@@ -9,7 +9,7 @@
 <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
 
 <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
-
+<link href="dist/css/lightbox.css" rel="stylesheet">
 </head>
 
 <div class="MainContainer">
@@ -32,18 +32,6 @@
 <body>
 
     <!-- info -->
-
-<div id="MenuContainer">
-  <ul id="navigation">
-    <a href="index.html"><img src="livingRoom1.png" height="45px" hspace="20px"></a>
-    <li class="list"><a class="navy" title="info" href="#info" >INFO</a></li>
-    <li class="list"><a class="navy" title="menu" href="#menu" >MENU</a></li>
-    <li class="list"><a class="navy" title="gallery" href="#gallery" >GALLERY</a></li>
-  <!--  <li class="list"><a class="navy" title="hookah" href="#hookah" >HOOKAH</a></li> -->
-    <li class="list"><a class="navy" href="#catering" >CATERING</a></li>
-    <li class="list" class="navy" class="last"><a title="list" href="#about" >ABOUT</a></li>
-  </ul>
-</div>
 
 <div class="infoo">
    <div class="bgimg">
@@ -97,10 +85,10 @@
          var time = d.getHours();
          if (time==0)
          {
-     document.getElementById("demo").innerHTML = "Closes in 2 hours";
+     document.getElementById("demo").innerHTML = "Closes in 1 hours";
          }
          if (time==1){
-           document.getElementById("demo").innerHTML = "Closes in 1 hour";
+           document.getElementById("demo").innerHTML = "Opens in 5 hour";
          }
          if (time ==2){
          document.getElementById("demo").innerHTML = "Opens in 4 hours";
@@ -121,68 +109,68 @@
 
         if (time==6)
          {
-     document.getElementById("demo").innerHTML = "Closes in 20 hours";
+     document.getElementById("demo").innerHTML = "Closes in 19 hours";
          }
          if (time==7){
-           document.getElementById("demo").innerHTML = "Closes in 19 hours";
+           document.getElementById("demo").innerHTML = "Closes in 18 hours";
          }
          if (time ==8){
-         document.getElementById("demo").innerHTML = "Closes in 18 hours";
+         document.getElementById("demo").innerHTML = "Closes in 17 hours";
        }
          if (time==9)
          {
-     document.getElementById("demo").innerHTML = "Closes in 17 hours";
+     document.getElementById("demo").innerHTML = "Closes in 16 hours";
          }
          if (time==10){
-           document.getElementById("demo").innerHTML = "Closes in 16 hours";
+           document.getElementById("demo").innerHTML = "Closes in 15 hours";
          }
          if (time ==11){
-         document.getElementById("demo").innerHTML = "Closes in 15 hours";
+         document.getElementById("demo").innerHTML = "Closes in 14 hours";
        }
 
 
         if (time==12)
          {
-     document.getElementById("demo").innerHTML = "Closes in 14 hours";
+     document.getElementById("demo").innerHTML = "Closes in 13 hours";
          }
          if (time==13){
-           document.getElementById("demo").innerHTML = "Closes in 13 hours";
+           document.getElementById("demo").innerHTML = "Closes in 12 hours";
          }
          if (time ==14){
-         document.getElementById("demo").innerHTML = "Closes in 12 hours";
+         document.getElementById("demo").innerHTML = "Closes in 11 hours";
        }
          if (time==15)
          {
-     document.getElementById("demo").innerHTML = "Closes in 11 hours";
+     document.getElementById("demo").innerHTML = "Closes in 10 hours";
          }
          if (time==16){
-           document.getElementById("demo").innerHTML = "Closes in 10 hours";
+           document.getElementById("demo").innerHTML = "Closes in 9 hours";
          }
          if (time ==17){
-         document.getElementById("demo").innerHTML = "Closes in 9 hours";
+         document.getElementById("demo").innerHTML = "Closes in 8 hours";
        }
 
 
 
         if (time==18)
          {
-     document.getElementById("demo").innerHTML = "Closes in 8 hours";
+     document.getElementById("demo").innerHTML = "Closes in 7 hours";
          }
          if (time==19){
-           document.getElementById("demo").innerHTML = "Closes in 7 hours";
+           document.getElementById("demo").innerHTML = "Closes in 6 hours";
          }
          if (time ==20){
-         document.getElementById("demo").innerHTML = "Closes in 6 hours";
+         document.getElementById("demo").innerHTML = "Closes in 5 hours";
        }
          if (time==21)
          {
-     document.getElementById("demo").innerHTML = "Closes in 5 hours";
+     document.getElementById("demo").innerHTML = "Closes in 4 hours";
          }
          if (time==22){
-           document.getElementById("demo").innerHTML = "Closes in 4 hours";
+           document.getElementById("demo").innerHTML = "Closes in 3 hours";
          }
          if (time ==23){
-         document.getElementById("demo").innerHTML = "Closes in 3 hours";
+         document.getElementById("demo").innerHTML = "Closes in 2 hours";
        }
 
 
@@ -202,16 +190,14 @@
              6AM - 1AM<br>
              12PM - 6PM<br><br>
              <button type="button" class="btn btn-primary btn-lg" ><a href="https://www.google.com/maps/place/5900+El+Cajon+Blvd,+San+Diego,+CA+92115/@32.7599579,-117.0726544,17z/data=!3m1!4b1!4m2!3m1!1s0x80d95699a8094d83:0x9c63e422b538cd6b"> FIND US</a></button><br><br><br><br>
-             <div class="space4"></div>
+          
           </div>
        </div>
      </div>
      </div>
      </div>
-     <br>
-     <br>
      </div>
-     </div><br>
+     </div>
      </article>
 
 
@@ -911,26 +897,26 @@
 <div class="row">
 
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/1.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
-      <img src="./gallery/2.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
-      <img src="./gallery/3.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
-      <img src="./gallery/4.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+     <a href="./gallery/1.jpg" data-lightbox="image-1" ><img src="./gallery/1.jpg" class="img-responsive" alt="Responsive image"><br></a>
+      <a href="./gallery/2.jpg" data-lightbox="image-1"><img src="./gallery/2.jpg" class="img-responsive" alt="Responsive image"><br></a>
+      <a href="./gallery/3.jpg" data-lightbox="image-1"><img src="./gallery/3.jpg" class="img-responsive" alt="Responsive image"><br></a>
+      <a href="./gallery/4.jpg" data-lightbox="image-1"><img src="./gallery/4.jpg" class="img-responsive" alt="Responsive image"><br></a>
     </div>
 
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/5.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
-      <img src="./gallery/7.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
-      <img src="./gallery/12.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
-      <img src="./gallery/8.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+      <a href="./gallery/5.jpg" data-lightbox="image-1"><img src="./gallery/5.jpg" class="img-responsive" alt="Responsive image"><br></a>
+      <a href="./gallery/7.jpg" data-lightbox="image-1"><img src="./gallery/7.jpg" class="img-responsive" alt="Responsive image"><br></a>
+      <a href="./gallery/12.jpg" data-lightbox="image-1"><img src="./gallery/12.jpg" class="img-responsive" alt="Responsive image"><br></a>
+      <a href="./gallery/8.jpg" data-lightbox="image-1"><img src="./gallery/8.jpg" class="img-responsive" alt="Responsive image"><br></a>
     </div>
 
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/9.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
-      <img src="./gallery/10.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+       <a href="./gallery/9.jpg" data-lightbox="image-1"><img src="./gallery/9.jpg" class="img-responsive" alt="Responsive image"><br></a>
+      <a href="./gallery/10.jpg" data-lightbox="image-1"><img src="./gallery/10.jpg" class="img-responsive" alt="Responsive image"><br></a>
     </div>
     <div class="col-xs-6 col-md-4">
-      <img src="./gallery/11.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
-      <img src="./gallery/6.jpg" class="img-responsive" alt="Responsive image" data-lightbox="image-1"><br>
+       <a href="./gallery/11.jpg" data-lightbox="image-1"><img src="./gallery/11.jpg" class="img-responsive" alt="Responsive image"><br></a>
+      <a href="./gallery/6.jpg" data-lightbox="image-1"><img src="./gallery/6.jpg" class="img-responsive" alt="Responsive image"><br></a>
   </div>
 
 </div>
@@ -1198,12 +1184,23 @@ style="border:none;overflow:hidden;width:800px; height: 800px" >
 </div>
 <div class="space"></div>
 </article>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="dist/js/lightbox.js"></script>
 <script>
-    lightbox.option({
-      'positionFromTop': 500,
+var mq = window.matchMedia('@media all and (max-width: 700px)');
+if(mq.matches) {
+    // the width of browser is more then 700px
+        lightbox.option({
+      'positionFromTop': 200,
       'showImageNumberLabel': false,
-    })
+    })}
+ else {
+    // the width of browser is less then 700px
+
+    lightbox.option({
+      'positionFromTop': 100,
+      'showImageNumberLabel': false,
+    })}
 </script>
 
 </body>
